@@ -1,0 +1,374 @@
+@media screen and (max-width: 1280px){
+
+
+
+
+  .content{
+
+
+    width: 96.5%;
+
+
+  }
+
+
+
+
+  .home-page{
+
+
+    .content {
+
+
+
+      .left-navigation-menu {
+
+        ul {
+
+
+          li {
+
+
+            span {
+
+
+              font-size: 26px;
+            }
+          }
+        }
+
+      }
+
+      .tabs-content {
+
+
+        .js-active-tab {
+          display: block;
+        }
+
+
+        .search-section {
+
+          .navigation-menu-content{
+
+            input{
+
+              margin: 24px 0 0 6px;
+              height: 30px;
+              width: 90%;
+
+            }
+          }
+
+          .search-section-content{
+
+            width: 75%;
+            height: 100%;
+
+            .search-content-left-block{
+
+              width: 42%;
+              height: 87.5%;
+              margin: 1% 2%;
+
+
+              .video-list{
+
+
+                li{
+
+                  height: 70px;
+                  padding: 20px 0 0 10px;
+
+
+
+                  .video-name{
+
+                    font-size:18px;
+                    padding: 0 0 0 20px;
+
+                  }
+
+                  .right-icons{
+
+
+                    >span{
+                      padding:  0  10px 0 0;
+
+                    }
+                  }
+
+                }
+
+
+
+              }
+
+
+
+
+            }
+
+
+
+            .search-content-right-block{
+
+              width: 48%;
+              height: 94%;
+              margin: 1% 0 0 0;
+
+
+
+
+              .video-comment{
+
+                background: #c7c7c7;
+                height: 51.8%;
+                padding: 5px 0 0 0;
+
+
+                .comments{
+
+
+
+                  .message-row{
+
+
+                    height: 25%;
+
+
+
+
+                    .user-message{
+
+                      width: 83%;
+                      height: 100%;
+                      float: left;
+                      margin: 0;
+
+                      font-family: 'Roboto-Regular';
+                      padding: 12px 0 0 30px;
+
+
+                      .user-name{
+
+
+                        font-size:10px;
+                        line-height: 20px;
+                      }
+
+                      .user-text{
+
+                        font-size:12px;
+                        line-height: 24px;
+
+                      }
+
+                    }
+
+                  }
+                }
+
+              }
+
+            }
+          }
+        }
+
+
+        .list-section{
+
+
+          .navigation-menu-content{
+
+            .list-title{
+
+
+              height: 8.6%;
+
+
+              >p{
+                font-size:20px;
+                padding: 12px 0 0 20px;
+              }
+
+            }
+
+            >p{
+
+
+              font-size:14px;
+              padding: 20px 0 0 15px;
+            }
+
+          }
+        }
+
+
+        .youtube-section{
+
+          height: 100%;
+
+          .navigation-menu-content{
+
+            height: 100%;
+
+
+            .youtube-title{
+
+              height: 8.6%;
+              margin: 0 0 0 2px;
+
+              >p{
+                font-size:20px;
+                color: #ffffff;
+                padding: 12px 0 0 10px;
+              }
+
+
+
+            }
+
+            .youtube-list{
+
+              margin: 7px 0 8px 5px;
+
+
+              ul{
+
+                li{
+
+
+                  .youtube-list-name{
+
+                    margin: 0 0 0 5px;
+                    font-size:18px;
+
+                  }
+
+                  .youtube-play{
+
+                    >img{
+                      position: relative;
+                      top: -4px;
+                    }
+                  }
+
+                  .youtube-list-close{
+
+                    color: #a9a8a8;
+                    position: absolute;
+                    right: 0;
+                    font-size: 16px;
+                    cursor: pointer;
+
+                  }
+
+                }
+              }
+
+            }
+
+
+
+          }
+
+          .youtube-content{
+
+
+            .youtube-video-block{
+              position: relative;
+              width: 100%;
+              height: 100%;
+              margin: 47px 0 0 10px;
+
+
+
+            }
+
+          }
+        }
+
+
+
+
+
+
+        .music-section{
+          .music-content{
+
+            width: 48%;
+            float: left;
+            background: url(../images/giphy.gif);
+            height: 60%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin: 50px 0 0 70px;
+            background-position: center center;
+          }
+
+        }
+
+      }
+
+    }
+
+
+
+  }
+
+
+
+
+
+
+
+
+  .login-page{
+
+
+
+
+    .login-left-block{
+
+      width: 60%;
+
+
+    }
+
+
+    .login-right-block{
+
+
+
+
+      .login-forms-border{
+
+        height: 780px;
+
+
+
+        .login-forms{
+
+          height: 730px;
+
+
+
+
+
+        }
+
+      }
+
+
+
+    }
+
+
+  }
+
+
+
+
+
+}

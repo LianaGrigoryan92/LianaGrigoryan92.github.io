@@ -1,0 +1,44 @@
+.home-page .home-shop-section .home-shop-row .home-shop-blocks:hover .hover-block{
+
+    right: 0;
+
+}
+
+.home-page .home-social-section a:hover{
+
+    color: #a3d34b;
+
+}
+
+header .content .header-menu ul li:hover .mainmenu-sub {
+
+
+    /*-webkit-transform: scale(1) translateY(0%) rotateX(0deg);*/
+    /*transform: scale(1) translateY(0%) rotateX(0deg);*/
+    opacity: 1;
+
+}
+
+header .content .header-menu ul li:hover >a{
+
+    color: #a3d34b;
+}
+
+header .content .header-menu ul li:hover >a .arrow-rotate{
+
+    transform: rotate(180deg);
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+
+    header .content .header-menu ul li:not:hover .mainmenu-sub {
+
+
+        /*-webkit-transform: scale(1) translateY(0%) rotateX(0deg);*/
+        /*transform: scale(1) translateY(0%) rotateX(0deg);*/
+        opacity: 1;
+
+    }
+}

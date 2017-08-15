@@ -1,0 +1,36 @@
+header .hide-block ul li a:hover {
+  color: #ffd77d;
+}
+
+section .top-block > .container .left-block-text .left-bottom-text > button:hover {
+  background: transparent;
+  color: #012c3e;
+  border: 2px solid  #012c3e;
+}
+
+section .rental-block .container > div button:hover {
+  color: #ffffff;
+  background: #ffd77d;
+  border: none;
+}
+
+section .roommate-block button:hover {
+  background: #012c3e;
+  color: #ffd77d;
+}
+
+section .brand-block .brand-buttons .contact-button:hover {
+  background: #ffd77d;
+  border: none;
+  color: #ffffff;
+}
+
+section .brand-block .brand-buttons .more-button:hover {
+  color: #61686b;
+  background-color: #ffffff;
+  border: 1px solid;
+}
+
+section .contact-block .container-fluid .contact-info .info-links a:hover {
+  color: #ffd77d;
+}

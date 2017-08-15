@@ -1,0 +1,29 @@
+.site-header .header-bottom-block .menu-block ul li:hover {
+  color: #ffffff;
+  display: block;
+  background: #f4b23c;
+}
+
+.site-header .header-bottom-block .menu-block ul li:hover a {
+  color: #ffffff;
+}
+
+
+.blog-inner-page .blog-inner-img-section .blog-inner-images .images-block:hover .hover-block{
+
+  display: block;
+}
+
+.profile-page .profile-search-content .profile-content-row .profile-content-block .profile-block-top:hover .profile-block-hover{
+  display: block;
+}
+
+.profile-page .profile-search-content .profile-content-row .profile-content-block .profile-block-links > a:hover {
+
+  background: #FFFFFF;
+
+}
+
+.profile-page .profile-search-content .profile-content-row .profile-content-block .profile-block-links > a:hover i {
+  color: #f4b23c;
+}

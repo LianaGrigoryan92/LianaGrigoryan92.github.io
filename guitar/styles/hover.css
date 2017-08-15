@@ -1,0 +1,42 @@
+.event-section .content .event-left-block .event-list > li button:hover {
+
+    background: #32d5bc;
+    color: #ffffff;
+
+}
+
+.header-section .navigation ul li:hover a {
+
+   color: #32d5bc;
+
+}
+
+.header-section .navigation ul li:hover span{
+
+    width: 100%;
+
+}
+
+.video-section .content .video-right-block #pause:hover{
+
+    opacity: 1;
+}
+
+.follow-section .content .follow-images > div:hover .hover-block{
+
+    display: block;
+}
+
+.follow-section .content .follow-images > div:hover  img{
+
+    transform: scale(1.1,1.1);
+    transition:  0.3s linear;
+}
+
+.contact-section .content .contact-content form button:hover{
+
+
+    background: #8d8d8d;;
+    color: #fff200;
+
+}

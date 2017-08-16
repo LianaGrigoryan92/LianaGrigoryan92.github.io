@@ -1,0 +1,731 @@
+//
+// Site css
+// --------------------------------------------
+html, body {
+	margin: 0 !important;
+	font-family: 'RobotoRegular';
+
+
+}
+
+
+html, body, .page-container, .main-content {
+	margin: 0 !important;
+	height: 105%;
+}
+
+
+.content{
+	width: 1521px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+header{
+
+	width: 100%;
+	position: fixed;
+	z-index: 9999;
+	background: #ffffff;
+
+
+	.logo-block{
+
+		float: left;
+		width: 50px;
+		height: 50px;
+		background: url(../images/logo.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		position: relative;
+		top:12px;
+
+
+	}
+
+	ul{
+		@include clear();
+		float: right;
+		padding: 30px 0 ;
+
+		li{
+			float: left;
+			display: inline-block;
+			margin: 0 58px 0 0;
+
+			a{
+
+				text-decoration: none;
+				text-transform: uppercase;
+				color: #0f0027;
+				padding: 0 0 14px 0;
+
+			}
+		}
+
+
+	}
+
+
+}
+
+
+.main-content {
+
+	position: relative;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+
+	article {
+		min-height: 105%;
+		position: relative;
+		padding: 1px 20px;
+		margin-top: 7px;
+
+		.bg {
+			position: absolute;
+			left: 0;
+			top: 0;
+			z-index: -1;
+			width: 100%;
+			height: 105%;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-attachment: fixed;
+		}
+
+		&:first-child{
+			margin: 0;
+		}
+	}
+
+	.about-section{
+
+		background: url("../images/design.jpg");
+		background-size: cover;
+
+
+
+	}
+
+	.portfolio-section{
+
+		background: url("../images/white.jpg");
+
+	}
+
+	.welcome-section{
+
+		background: url("../images/back2.jpg");
+		background-size: cover;
+		margin: 85px 0;
+	}
+
+	.project-section{
+		background: url("../images/white.jpg");
+
+	}
+
+
+
+	.about-page{
+
+		.article-wrap{
+
+			.content{
+
+				.about-block-content{
+
+					width: 894px;
+					height: 225px;
+					background: url("../images/system.png");
+					background-repeat: no-repeat;
+					background-size: 100%;
+					position: absolute;
+					top:709px;
+					right: 116px;
+					padding:  48px 82px;
+
+					p{
+						color: #0f0027;
+						font-size:35px;
+						line-height: 48px;
+
+						span{
+							font-family: 'RobotoSlab-Regular';
+							text-transform: uppercase;
+						}
+					}
+
+
+				}
+			}
+
+
+
+		}
+	}
+
+	.portfolio-page{
+
+		padding: 1px 0;
+
+		.article-wrap{
+
+			h2{
+				text-align: center;
+				font-family: 'RobotoSlab-Bold';
+				font-size:40px;
+				color: #0f0027;
+				margin: 153px 0 0 0;
+			}
+
+
+			.portfolio-menu{
+				width: 100%;
+				margin: 58px 0 72px 0;
+				@include clear();
+
+				ul{
+					width: 660px;
+					position: relative;
+					margin: 0 auto;
+
+					li{
+						float: left;
+						margin: 0 0 0 52px;
+						text-transform: uppercase;
+						position: relative;
+						text-align: center;
+						font-size: 25px;
+						cursor: pointer;
+
+						&:first-child{
+							margin: 0;
+						}
+
+						span{
+							display: none;
+							width: 100%;
+							height: 2px;
+							background: #fe424a;
+							position: absolute;
+							top:10px;
+						}
+
+					}
+				}
+
+			}
+
+			.portfolio-images{
+
+				width: 100%;
+				height: 716px;
+				@include clear();
+
+				>div{
+
+					width: 25%;
+					float: left;
+					height: 50%;
+					background-position: center center;
+					
+					
+					&:first-child{
+
+						height: 100%;
+						background-image: url("../images/portfolio-img3.jpg");
+						background-size: cover;
+
+
+
+					}
+
+					&:nth-child(2){
+
+						background-image: url("../images/portfolio-img1.png");
+						background-size: cover;
+					}
+
+					&:nth-child(3){
+
+
+						background-image: url("../images/portfolio-img4.jpg");
+						background-size: cover;
+					}
+
+					&:nth-child(4){
+
+
+						background-image: url("../images/portfolio-img5.jpg");
+						background-size: cover;
+					}
+
+
+					&:nth-child(5){
+
+
+						background-image: url("../images/portfolio-img6.jpg");
+						background-size: cover;
+					}
+
+					&:nth-child(6){
+
+
+						background-image: url("../images/portfolio-img7.jpg");
+						background-size: cover;
+					}
+
+					&:nth-child(7){
+
+
+						background-image: url("../images/portfolio-img2.jpg");
+						background-size: cover;
+					}
+				}
+
+
+
+
+
+			}
+
+
+
+
+		}
+
+	}
+
+	.welcome-page{
+
+
+		.article-wrap{
+
+			overflow-y: scroll;
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+
+			.content{
+
+				.welcome-content{
+
+					width: 50%;
+					float: right;
+					padding: 87px 0 0 0;
+
+
+					h2{
+						font-family: 'RobotoBold';
+						color: #828282;
+						font-size:50px;
+
+						&:last-of-type{
+
+							color: #080113;
+							margin: 28px 0 52px 0;
+
+						}
+
+					}
+
+					div{
+						h5{
+
+							font-family: 'RobotoSlab-Bold';
+							font-size:20px;
+							color: #080113;
+							text-transform: uppercase;
+							margin: 0 0 28px 0;
+
+
+
+						}
+
+						p{
+
+
+							font-size:25px;
+							color: #444444;
+							line-height: 33px;
+
+						}
+
+
+						&:first-of-type{
+
+							margin: 0 0 99px 0;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+
+	}
+
+	.projects-page{
+		padding: 1px 0;
+
+		.article-wrap{
+
+			.project-all-content{
+
+				width: 100%;
+				height: 955px;
+				@include clear();
+				padding: 91px 0 166px 0;
+
+				>div{
+
+					float: left;
+					width: 50%;
+					height: 50%;
+					@include clear();
+
+					>div{
+
+						float: left;
+						width: 50%;
+						height: 100%;
+					}
+
+					.project-content{
+
+						padding: 5% 3%;
+
+						h5{
+
+							font-family: 'RobotoBold';
+							font-size:22px;
+							color: #7c7c7c;
+
+
+
+						}
+
+						p{
+							font-family: 'RobotoRegular';
+							font-size:20px;
+							color: #acacac;
+							line-height: 25px;
+							margin: 10% 0 11% 0;
+						}
+
+						a{
+							display: inline-block;
+							width: 169px;
+							height: 46px;
+							color: #fe424a;
+							border: 1px solid;
+							font-family: 'RobotoRegular';
+							font-size:23px;
+							text-align: center;
+							text-decoration: none;
+							padding: 9px 0 0 0;
+						}
+
+
+
+					}
+
+					&:first-child{
+
+						.project-img{
+
+							background: url("../images/project1.jpg");
+							    background-position: center center;
+						}
+					}
+
+
+					&:nth-child(2){
+
+						.project-img{
+
+							background: url("../images/project2.jpg");
+							    background-position: center center;
+						}
+					}
+
+
+					&:nth-child(3){
+
+						.project-img{
+
+							background: url("../images/project3.jpg");
+							    background-position: center center;
+						}
+					}
+
+
+					&:nth-child(4){
+
+						.project-img{
+
+							background: url("../images/project4.jpg");
+							    background-position: center center;
+						}
+					}
+
+
+
+
+
+				}
+			}
+
+			.project-firms-block{
+
+				width: 80%;
+				height: 202px;
+				margin: 0 auto;
+				//background: url("../images/firms.png");
+				//background-repeat: no-repeat;
+				//background-position: center;
+				//background-size: 100% 100%;
+
+
+				.owl-carousel{
+
+					.owl-item{
+
+						img{
+
+							max-width: 200px;
+
+						}
+
+
+					}
+
+				}
+
+			}
+
+
+		}
+
+
+	}
+	.contact-page{
+
+		padding: 1px 0;
+		min-height: 80%;
+
+		.contact-content{
+			width: 100%;
+			height: 774px;
+			position: relative;
+			margin: 75px 0 0 0;
+
+			.contact-left-back,.contact-right-back{
+
+				position: absolute;
+				width: 50%;
+				height: 100%;
+
+
+
+			}
+
+			.contact-left-back{
+
+				left: 0;
+				background:url("../images/arrow-back.png") ;
+				background-repeat: no-repeat;
+				background-position: left;
+			}
+
+			.contact-right-back{
+
+				right: 0;
+				background: #ffe240;
+
+			}
+
+			.content{
+				@include clear();
+				padding: 95px 0 0 0;
+
+				>div{
+					float: left;
+					width: 50%;
+				}
+
+				.contact-left-block{
+
+
+
+
+					.contact-form{
+
+						input,select,textarea{
+
+							width: 675px;
+							display: block;
+							background: #ffffff;
+							border: 1px solid #c5c5c5;
+							color: #606572;
+							font-size:25px;
+							font-family: 'RobotoRegular';
+							margin: 0 0 34px 0;
+							padding: 0 0 0 47px;
+
+
+						}
+
+						input,select{
+							height: 100px;
+						}
+
+						textarea{
+							height: 140px;
+							padding: 24px 0 0 47px;
+							resize: none;
+						}
+
+						button{
+
+							width: 250px;
+							height: 71px;
+							border: none;
+							color: #ffffff;
+							font-family: 'RobotoRegular';
+							font-size:34px;
+							text-transform: uppercase;
+							background: #ffe240;
+							cursor: pointer;
+						}
+
+					}
+
+
+				}
+
+				.contact-right-block{
+					padding: 0 0  0 267px;
+
+
+					.contact-info-blocks{
+
+						width: 390px;
+						height: 95px;
+						position: relative;
+						margin: 0 0 116px 0;
+
+						span,p{
+
+
+							color: #7b7b7b;
+							font-size:25px;
+							line-height: 34px;
+
+						}
+
+						span{
+							font-family: 'RobotoBold';
+							text-transform: uppercase;
+						}
+
+
+						p{
+							font-family: 'RobotoRegular';
+						}
+
+
+						&:before{
+
+							content: "";
+							display: block;
+							width: 65px;
+							height: 83px;
+							background: url(../images/location.png);
+							background-repeat: no-repeat;
+							position: absolute;
+							left: -97px;
+
+						}
+
+						&:nth-child(2){
+
+							&:before{
+
+
+								background: url(../images/note.png);
+								background-repeat: no-repeat;
+
+
+							}
+
+						}
+
+
+						&:nth-child(3){
+
+							&:before{
+
+
+								height: 88px;
+								background: url(../images/mobile.png);
+								background-repeat: no-repeat;
+
+
+							}
+
+						}
+					}
+				}
+			}
+
+
+
+		}
+
+		.soacial-links{
+
+			width: 100%;
+			text-align: center;
+			padding: 30px 0 0 0;
+			margin: 23px 0 0 0;
+			border-top: 1px solid #cbc9c9;
+
+			>a{
+				display: inline-block;
+				text-decoration: none;
+				color: #cbc9c9;
+				border: 3px solid;
+				width: 64px;
+				height: 64px;
+				font-size: 30px;
+				border-radius: 50%;
+				text-align: center;
+				padding: 15px 0 0 0;
+				margin: 0 0 0 38px;
+
+				&:first-child{
+
+					margin: 0;
+				}
+			}
+
+		}
+	}
+
+
+
+
+
+
+}
+

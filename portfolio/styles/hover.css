@@ -1,0 +1,40 @@
+header ul li a:hover{
+
+    border-bottom: 2px solid #fde03e;
+
+}
+
+.main-content .portfolio-page .article-wrap .portfolio-menu ul li:hover span{
+
+    display: block;
+}
+
+.main-content .contact-page .soacial-links > a:hover{
+
+    color: #a3c7d7;
+
+}
+
+
+.main-content .projects-page .article-wrap .project-all-content > div .project-content a:hover{
+
+
+    background: #fe424a;
+    color: #ffffff;
+
+}
+
+.main-content .portfolio-page .article-wrap .portfolio-images > div:hover{
+
+    filter: grayscale(100%);
+
+
+}
+
+.main-content .contact-page .contact-content .content .contact-left-block .contact-form button:hover {
+
+    color: #ffe240;
+    border: 3px solid;
+    background: transparent;
+
+}

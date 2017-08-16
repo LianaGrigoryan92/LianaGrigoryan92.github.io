@@ -1,0 +1,276 @@
+@media screen and (max-width: 488px) {
+
+  .content{
+    width: 320px;
+
+  }
+
+  header{
+
+    .logo-block{
+
+      width: 35px;
+      height: 35px;
+    }
+
+    ul{
+
+      li {
+
+        margin: 0 5px 0 0;
+
+        a{
+          font-size: 12px;
+        }
+      }
+
+    }
+  }
+
+  .main-content {
+
+    .about-page{
+
+      .article-wrap{
+
+        .content{
+
+          .about-block-content{
+
+
+            width: 300px;
+            top:400px;
+            right: 20px;
+            padding: 5px 20px;
+
+            p {
+
+              font-size: 12px;
+              line-height: 16px;
+            }
+
+
+
+          }
+        }
+
+
+
+      }
+    }
+
+
+    .portfolio-page{
+
+
+
+      .article-wrap{
+
+
+        .portfolio-menu{
+
+          ul{
+
+            li {
+
+              margin: 0 0 0 15px;
+              font-size: 14px;
+
+            }
+
+          }
+
+        }
+
+        .portfolio-images{
+
+          height: 545px;
+
+
+          >div{
+            width: 50%;
+            height: 25%;
+            float: left;
+
+            &:first-child{
+              height: 50%;
+            }
+          }
+
+
+
+
+
+        }
+
+
+
+
+      }
+
+    }
+
+
+    .welcome-page{
+
+      .article-wrap{
+
+        .content{
+
+
+          .welcome-content{
+
+            padding: 55px 0 0 0;
+            float: none;
+            width: 100%;
+
+            h2 {
+
+              font-size: 35px;
+            }
+
+            div{
+              p {
+                font-size: 18px;
+                line-height: 24px;
+              }
+            }
+
+          }
+        }
+
+
+      }
+
+
+    }
+
+    .projects-page{
+
+      .article-wrap{
+
+        .project-all-content{
+
+          height: 100%;
+          >div{
+
+            float: none;
+            width: 100%;
+            height: 25%;
+
+            .project-content{
+              width: 100%;
+
+              h5 {
+
+                font-size: 20px;
+
+              }
+
+              p {
+
+
+                font-size: 16px;
+
+              }
+
+            }
+
+            .project-img{
+              display: none;
+            }
+
+          }
+
+        }
+
+      }
+
+
+    }
+
+    .contact-page{
+
+
+
+      .contact-content{
+
+
+
+
+        .content{
+          @include clear();
+          padding: 95px 0 0 0;
+
+          >div{
+            float: none;
+            width: 100%;
+          }
+
+          .contact-left-block{
+
+
+
+
+            .contact-form{
+
+              input,select,textarea{
+
+
+                width: 90%;
+
+
+              }
+
+              input,select{
+                height: 50px;
+              }
+
+
+
+
+            }
+
+
+          }
+
+          .contact-right-block{
+
+            background: #ffe240;
+            padding: 37px 0 10px 10px;
+            background: #ffe240;
+            margin: 50px 0 0 0;
+
+            .contact-info-blocks{
+
+              width: 288px;
+
+              p {
+
+                font-size: 20px;
+                line-height: 28px;
+              }
+
+              &:before{
+                display: none;
+              }
+
+            }
+
+
+          }
+        }
+
+
+
+      }
+
+
+    }
+
+
+
+  }
+
+
+}

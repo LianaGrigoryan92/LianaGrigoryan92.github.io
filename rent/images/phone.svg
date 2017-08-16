@@ -1,0 +1,15 @@
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 214.76 445.27">
+    <defs>
+        <style>.cls-1{fill:#959595;}.cls-2{fill:#fff;}</style>
+    </defs>
+    <title>phone</title>
+    <rect class="cls-1" width="214.76" height="445.27" rx="28.38" ry="28.38"/>
+    <polygon class="cls-2" points="204.61 55.76 10.15 55.76 10.15 278.72 204.61 85.6 204.61 55.76"/>
+    <polygon class="cls-2" points="10.15 278.72 10.15 394.72 204.61 394.72 204.61 85.6 10.15 278.72"/>
+    <circle class="cls-2" cx="111.67" cy="420.11" r="15.69"/>
+    <path class="cls-2"
+          d="M249.14,38H215a1.46,1.46,0,0,1-1.46-1.46h0A1.46,1.46,0,0,1,215,35.07h34.15a1.46,1.46,0,0,1,1.46,1.46h0A1.46,1.46,0,0,1,249.14,38Z"
+          transform="translate(-120.4 -5.4)"/>
+    <circle class="cls-2" cx="111.67" cy="16.71" r="2.03"/>
+    <circle class="cls-2" cx="77.86" cy="31.13" r="3.75"/>
+</svg>

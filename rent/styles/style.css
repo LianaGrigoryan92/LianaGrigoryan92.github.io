@@ -1,0 +1,946 @@
+a, abbr, acronym, address, applet, article, aside, audio, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  outline: 0 !important;
+}
+
+* {
+  -webkit-text-size-adjust: auto !important;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+a {
+  border: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1;
+  word-wrap: break-word;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input[type="text"], input[type="submit"], textarea {
+  outline: 0 !important;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+
+*, :after, :before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/*input[type=text], input[type=email], input[type=password], input[type=number], textarea {
+	&::-webkit-input-placeholder {
+		opacity: 1;
+		color: #74421c;
+	}
+	&:-moz-placeholder {
+		opacity: 1;
+		color: #74421c;
+	}
+	&::-moz-placeholder {
+		opacity: 1;
+		color: #74421c;
+	}
+	&:-ms-input-placeholder {
+		opacity: 1;
+		color: #74421c;
+	}
+}
+
+
+input.error {
+	color: #D9272E !important;
+
+	&::-webkit-input-placeholder {
+		color: #D9272E !important;
+	}
+	&:-moz-placeholder {
+		color: #D9272E !important;
+		opacity: 1;
+	}
+	&::-moz-placeholder {
+		color: #D9272E !important;
+		opacity: 1;
+	}
+	&:-ms-input-placeholder {
+		color: #D9272E !important;
+	}
+}
+ */
+/*
+	cdCss functions
+	--------------------
+*/
+@font-face {
+  font-family: 'Metropolis-Medium';
+  src: url("../fonts/Metropolis-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Metropolis-Medium.otf") format("opentype"), url("../fonts/Metropolis-Medium.woff") format("woff"), url("../fonts/Metropolis-Medium.ttf") format("truetype"), url("../fonts/Metropolis-Medium.svg#Metropolis-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: url("../fonts/Metropolis-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Metropolis-Bold.otf") format("opentype"), url("../fonts/Metropolis-Bold.woff") format("woff"), url("../fonts/Metropolis-Bold.ttf") format("truetype"), url("../fonts/Metropolis-Bold.svg#Metropolis-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-Light';
+  src: url("../fonts/Metropolis-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Metropolis-Light.otf") format("opentype"), url("../fonts/Metropolis-Light.woff") format("woff"), url("../fonts/Metropolis-Light.ttf") format("truetype"), url("../fonts/Metropolis-Light.svg#Metropolis-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis-Regular';
+  src: url("../fonts/Metropolis-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Metropolis-Regular.otf") format("opentype"), url("../fonts/Metropolis-Regular.woff") format("woff"), url("../fonts/Metropolis-Regular.ttf") format("truetype"), url("../fonts/Metropolis-Regular.svg#Metropolis-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Slider */
+/* Slider */
+html, body {
+  margin: 0 !important;
+  font-family: 'Metropolis-Medium';
+}
+
+.show {
+  display: block !important;
+}
+
+.all-content {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.inner-content {
+  width: 760px;
+  position: relative;
+  margin: 0 auto;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header .logo {
+  float: left;
+  padding: 34px 0;
+}
+
+header .logo p {
+  font-size: 20px;
+}
+
+header .menu-hide {
+  float: right;
+  display: none;
+  margin: 30px;
+}
+
+header .menu-hide span {
+  font-size: 30px;
+}
+
+header ul {
+  display: block;
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 34px 0 27px 16px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #17151a;
+  font-size: 20px;
+  padding: 34px 0 27px 16px;
+}
+
+.home-page h3 {
+  font-family: 'Metropolis-Bold';
+  font-size: 26px;
+  color: #2a2a2a;
+  text-align: center;
+  padding: 60px 0 50px 0;
+}
+
+.home-page .search-block {
+  width: 100%;
+  height: 860px;
+  background: url(../images/back.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.home-page .search-block .links-block ul {
+  padding: 36.5% 0 0 0;
+}
+
+.home-page .search-block .links-block ul li {
+  display: inline-block;
+}
+
+.home-page .search-block .links-block ul li a {
+  text-decoration: none;
+  color: #17151a;
+  font-size: 26px;
+  font-family: 'Metropolis-Bold';
+  background: rgba(255, 255, 255, 0.7);
+  width: 184px;
+  height: 64px;
+  display: inline-block;
+  text-align: center;
+  padding: 17px 0 0 0;
+  border-bottom: 4px solid transparent;
+}
+
+.home-page .search-block .search > input {
+  display: inline-block;
+  width: 750px;
+  height: 60px;
+  border: 8px solid #6dbdb5;
+  margin: 11px 0 0 0;
+  font-family: 'Metropolis-Light';
+  font-size: 16px;
+  color: #656565;
+  padding: 0 0 0 30px;
+}
+
+.home-page .choose-block > .all-content {
+  padding: 65px 0 0 0;
+  height: 540px;
+}
+
+.home-page .choose-block > .all-content > div {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.home-page .choose-block > .all-content .left-choose-block h3 {
+  text-align: left;
+  padding: 28px 0 50px 0;
+}
+
+.home-page .choose-block > .all-content .left-choose-block p {
+  font-size: 18px;
+  color: #494949;
+  line-height: 31px;
+}
+
+.home-page .choose-block > .all-content .left-choose-block a {
+  text-decoration: none;
+  color: #6dbdb5;
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+
+.home-page .choose-block > .all-content .left-choose-block a:after {
+  content: url("../images/arrow.png");
+}
+
+.home-page .choose-block > .all-content .right-choose-block {
+  position: relative;
+  margin: 0;
+}
+
+.home-page .choose-block > .all-content .right-choose-block .border-block {
+  border: 1px solid #66bbb0;
+  border-right: 1px solid transparent;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 68%;
+  height: 55.5%;
+}
+
+.home-page .choose-block > .all-content .right-choose-block > img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.home-page .help-block {
+  width: 100%;
+  height: 490px;
+  margin: 0  0 90px 0;
+}
+
+.home-page .help-block > div {
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+
+.home-page .help-block .help-right-block {
+  background: url("../images/houses.png");
+}
+
+.home-page .help-block .help-left-block {
+  background: #6dbdb5;
+  position: relative;
+}
+
+.home-page .help-block .help-left-block .help-block-content {
+  width: 600px;
+  right: -15px;
+  position: absolute;
+  color: #ffffff;
+  padding: 150px 0 0 0;
+}
+
+.home-page .help-block .help-left-block .help-block-content h2 {
+  font-family: 'Metropolis-Bold';
+  font-size: 35px;
+}
+
+.home-page .help-block .help-left-block .help-block-content p {
+  font-size: 24px;
+  padding: 32px 0 48px 0;
+}
+
+.home-page .help-block .help-left-block .help-block-content button {
+  width: 210px;
+  height: 54px;
+  color: #ffffff;
+  font-size: 20px;
+  background: transparent;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.home-page .info-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-page .info-block .img-info {
+  float: left;
+}
+
+.home-page .info-block .link-info {
+  float: right;
+  width: 67%;
+}
+
+.home-page .info-block .link-info p {
+  background: #e8e8e8;
+  width: 100%;
+  height: 72px;
+  margin: 0 0 19px 0;
+  cursor: pointer;
+}
+
+.home-page .info-block .link-info p span {
+  display: inline-block;
+  width: 72px;
+  height: 62px;
+  background: #ffffff;
+  text-align: center;
+  padding: 20px 0 0  0;
+  margin: 5px;
+}
+
+.home-page .info-block .link-info p span svg {
+  max-width: 32px;
+  max-height: 23px;
+}
+
+.home-page .info-block .link-info p span svg g {
+  fill: #959595;
+}
+
+.home-page .info-block .link-info p a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: #959595;
+  padding: 0 0 0 19px;
+}
+
+.home-page .neighborhood-block {
+  width: 100%;
+  height: 416px;
+  background: url(../images/neighborhood.png);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  margin: 64px 0 0 0;
+}
+
+.home-page .neighborhood-block h1 {
+  font-size: 45px;
+  color: #6dbdb5;
+  font-family: 'Metropolis-Bold';
+  padding: 13% 0 4% 0;
+}
+
+.home-page .neighborhood-block p {
+  color: #2a2a2a;
+  font-size: 20px;
+  font-family: 'Metropolis-Light';
+  line-height: 24px;
+  padding: 0 0 4% 0;
+}
+
+.home-page .neighborhood-block .neighborhood-search {
+  width: 73.8%;
+  height: 48px;
+  background: transparent;
+  border: 1px solid #6dbdb5;
+  position: relative;
+  margin: 0 auto;
+}
+
+.home-page .neighborhood-block .neighborhood-search input {
+  width: 75.5%;
+  height: 100%;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  border: none;
+  font-size: 16px;
+  color: #959595;
+  padding: 0 0 0 17px;
+}
+
+.home-page .neighborhood-block .neighborhood-search button {
+  width: 24.5%;
+  height: 100%;
+  background: #6dbdb5;
+  position: absolute;
+  right: 0;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.home-page .posts-block {
+  margin: 0  0 70px 0;
+}
+
+.home-page .posts-block .posts:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-page .posts-block .posts .posts-inner-blocks {
+  width: 29.0%;
+  float: left;
+  margin: 0 0 0 5.5%;
+}
+
+.home-page .posts-block .posts .posts-inner-blocks:first-child {
+  margin: 0;
+}
+
+.home-page .posts-block .posts .posts-inner-blocks .post-info h4 {
+  font-family: 'Metropolis-Bold';
+  font-size: 19px;
+  color: #012c3e;
+  line-height: 53px;
+}
+
+.home-page .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-page .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks p {
+  line-height: 50px;
+}
+
+.home-page .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks p span {
+  font-size: 18px;
+  color: #6d7a7f;
+  padding: 0 0 0 23px;
+}
+
+.home-page .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks .post-info-block-left {
+  float: left;
+}
+
+.home-page .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks .post-info-block-right {
+  float: right;
+}
+
+.contact-page .contact-back-block {
+  width: 100%;
+  height: 310px;
+  background: url("../images/contact.png");
+  background-size: cover;
+  background-position: center center;
+  padding: 130px 0;
+}
+
+.contact-page .contact-back-block h1 {
+  font-family: 'Metropolis-Bold';
+  font-size: 51px;
+  color: #6dbdb5;
+  width: 200px;
+  padding: 0  0  20px  0;
+  border-bottom: 1px solid #0d1b17;
+}
+
+.contact-page .contact-content {
+  width: 100%;
+  height: 476px;
+  margin: 100px 0;
+  position: relative;
+}
+
+.contact-page .contact-content .content-right-block {
+  width: 50%;
+  right: 0;
+  height: 100%;
+  background: #f1f1f1;
+  position: absolute;
+}
+
+.contact-page .contact-content .all-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact-page .contact-content .all-content > div {
+  width: 50%;
+  float: left;
+}
+
+.contact-page .contact-content .all-content .contact-left-block .contact-info-block img {
+  margin: 35px 0;
+}
+
+.contact-page .contact-content .all-content .contact-left-block .contact-info-block:first-child > img {
+  margin: 0 0 35px 0;
+}
+
+.contact-page .contact-content .all-content .contact-left-block .contact-info-block p {
+  font-size: 18px;
+  color: #00140f;
+  line-height: 31px;
+}
+
+.contact-page .contact-content .all-content .contact-right-block .contact-forms {
+  margin: 37px 0;
+}
+
+.contact-page .contact-content .all-content .contact-right-block .contact-forms form input, .contact-page .contact-content .all-content .contact-right-block .contact-forms form textarea, .contact-page .contact-content .all-content .contact-right-block .contact-forms form button {
+  display: block;
+  width: 90%;
+  height: 54px;
+  color: #00140f;
+  font-size: 18px;
+  margin: 0 0 19px 35px;
+  padding: 0 0 0 20px;
+  border: none;
+  border-left: 2px solid #6dbdb5;
+}
+
+.contact-page .contact-content .all-content .contact-right-block .contact-forms form textarea {
+  height: 184px;
+  resize: none;
+}
+
+.contact-page .contact-content .all-content .contact-right-block .contact-forms form button {
+  background: #6dbdb5;
+  color: #ffffff;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+}
+
+.contact-page .contact-map {
+  width: 100%;
+  height: 393px;
+  margin: 0 0 100px 0;
+}
+
+.contact-page .contact-map > iframe {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 125px;
+  background: #6dbdb5;
+}
+
+footer > .all-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer > .all-content > div {
+  width: 50%;
+  height: 80px;
+  float: left;
+  padding: 28px 0  0   0;
+}
+
+footer .footer-left-block {
+  font-size: 20px;
+  color: #2a2a2a;
+}
+
+footer .footer-right-block {
+  text-align: right;
+}
+
+footer .footer-right-block > .footer-links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0 5px;
+}
+
+footer .footer-bottom-block {
+  width: 100%;
+  border-top: 1px solid #60a099;
+}
+
+footer .footer-bottom-block .social-right {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+footer .footer-bottom-block .social-right > a {
+  display: inline-block;
+  margin: 12px 6px;
+}
+
+/*
+* Ie fixes
+*/
+@media only screen and (max-width: 1200px) {
+  .all-content {
+    width: 100%;
+  }
+  section .help-block .help-left-block .help-block-content {
+    width: 440px;
+    right: 0;
+    padding: 100px 0 0 0;
+  }
+  section .info-block .link-info {
+    float: right;
+    width: 60%;
+  }
+  section .posts-block .posts .posts-inner-blocks .post-img img {
+    max-width: 100%;
+  }
+  section .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks p span {
+    font-size: 16px;
+    padding: 0 0 0 5px;
+  }
+  footer > .all-content > .footer-left-block {
+    width: 30%;
+  }
+  footer > .all-content > .footer-right-block {
+    width: 70%;
+  }
+  section .posts-block .posts .posts-inner-blocks .post-info h4 {
+    font-size: 16px;
+  }
+  section .search-block {
+    height: 530px;
+  }
+  section .search-block .links-block ul {
+    padding: 20% 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header .menu-hide {
+    display: block;
+    cursor: pointer;
+  }
+  header ul {
+    display: none;
+    right: 0;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    background: #fff;
+    z-index: 10;
+    top: 92px;
+  }
+  header ul li {
+    display: block;
+    text-align: center;
+    line-height: 5px;
+  }
+  section .choose-block > .all-content .right-choose-block .border-block {
+    display: none;
+  }
+  section .choose-block > .all-content .left-choose-block h3 {
+    padding: 10px 0;
+  }
+  section .choose-block > .all-content .left-choose-block p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  section .help-block .help-left-block .help-block-content {
+    width: 350px;
+    padding: 90px 0 0 0;
+  }
+  section .info-block .link-info {
+    float: right;
+    width: 49%;
+  }
+  section .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks p img {
+    max-width: 100%;
+  }
+  section .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks p span {
+    font-size: 14px;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  section .search-block {
+    height: 350px;
+  }
+  section .search-block .links-block ul {
+    padding: 12% 0 0 0;
+    width: 100%;
+  }
+  section .search-block .links-block ul li {
+    width: 24%;
+  }
+  .inner-content {
+    width: 100%;
+  }
+  section .search-block .links-block ul li a {
+    font-size: 24px;
+    width: 100%;
+    height: 54px;
+    padding: 15px 0 0 0;
+  }
+  section .search-block .search > input {
+    width: 100%;
+  }
+  section .choose-block > .all-content {
+    padding: 10px 0;
+    min-height: 540px;
+  }
+  section .choose-block > .all-content > div {
+    width: 100%;
+    float: none;
+    height: 100%;
+  }
+  section .choose-block > .all-content .right-choose-block > img {
+    width: 100%;
+    position: static;
+  }
+  section .help-block {
+    height: 100%;
+  }
+  section .help-block > div {
+    width: 100%;
+    float: none;
+    height: 490px;
+  }
+  section .choose-block > .all-content {
+    height: auto;
+  }
+  section .help-block .help-left-block .help-block-content {
+    width: 100%;
+    padding: 90px 20px;
+  }
+  section .info-block .img-info {
+    float: none;
+    width: 100%;
+  }
+  section .info-block .img-info img {
+    width: 100%;
+  }
+  section .info-block .link-info {
+    float: none;
+    width: 100%;
+  }
+  section .posts-block .posts .posts-inner-blocks {
+    width: 100%;
+    float: none;
+    margin: 15px 10px;
+  }
+  section .posts-block .posts .posts-inner-blocks .post-img img {
+    width: 100%;
+  }
+  footer > .all-content > div {
+    width: 100%;
+    height: 30px;
+    float: none;
+    padding: 0;
+  }
+  footer .footer-right-block {
+    text-align: left;
+  }
+  footer .footer-right-block > .footer-links a {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+  footer .all-content {
+    width: 100%;
+    padding: 7px 0;
+  }
+  footer > .all-content > .footer-right-block {
+    width: 100%;
+  }
+  .contact-page .contact-content .all-content > div {
+    width: 100%;
+    float: none;
+  }
+  .contact-page .contact-content {
+    height: 952px;
+  }
+  .contact-page .contact-content .content-right-block {
+    width: 100%;
+    bottom: 0;
+    height: 50%;
+  }
+  .contact-page .contact-content .all-content .contact-left-block .contact-info-block {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  section .search-block .links-block ul li a {
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0 0 0;
+  }
+  section .search-block {
+    height: 250px;
+  }
+  section .help-block > div {
+    width: 100%;
+    float: none;
+    height: 350px;
+  }
+  section .search-block .links-block ul li {
+    width: 23%;
+  }
+  section .help-block .help-left-block .help-block-content {
+    padding: 40px 10px;
+  }
+  section .help-block .help-left-block .help-block-content h2 {
+    font-size: 26px;
+  }
+  section .help-block .help-left-block .help-block-content p {
+    font-size: 18px;
+    padding: 32px 0 48px 0;
+  }
+  section h3 {
+    font-size: 20px;
+    padding: 30px 0;
+  }
+  section .info-block .link-info p a {
+    font-size: 16px;
+    padding: 0;
+  }
+  section .neighborhood-block h1 {
+    font-size: 24px;
+    padding: 25% 0 4% 0;
+  }
+  section .neighborhood-block p {
+    font-size: 16px;
+    padding: 0 0 4% 0;
+  }
+  section .neighborhood-block {
+    height: 320px;
+    margin: 35px 0 0 0;
+  }
+  section .neighborhood-block .neighborhood-search {
+    height: 48px;
+  }
+  section .neighborhood-block .neighborhood-search input {
+    font-size: 12px;
+    padding: 0 0 0 5px;
+  }
+  footer > .all-content > .footer-left-block {
+    width: 100%;
+  }
+  header ul li a {
+    font-size: 16px;
+    padding: 0;
+  }
+  header ul li {
+    padding: 14px 10px;
+  }
+}

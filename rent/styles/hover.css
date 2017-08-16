@@ -1,0 +1,35 @@
+header ul li a:hover {
+  color: #6dbdb5;
+}
+
+section .search-block .links-block ul li a:hover {
+  border-bottom: 4px solid #6dbdb5;
+}
+
+section .choose-blocks > .choose-block-first:hover .hover-fist {
+  display: block;
+}
+
+section .choose-blocks > .choose-block-second:hover .hover-second {
+  display: block;
+}
+
+section .choose-blocks > .choose-block-third:hover .hover-third {
+  display: block;
+}
+
+section .info-block .link-info p:hover {
+  background: #6dbdb5;
+}
+
+section .info-block .link-info p:hover a {
+  color: #ffffff;
+}
+
+section .info-block .link-info p:hover span svg g {
+  fill: #6dbdb5;
+}
+
+section .info-block .link-info p:hover span svg .cls-1 {
+  fill: #6dbdb5;
+}

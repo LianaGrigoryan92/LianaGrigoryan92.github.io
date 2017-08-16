@@ -1,0 +1,688 @@
+//
+// Site css
+// --------------------------------------------
+
+html, body {
+	margin: 0 !important;
+	//height: 100%;
+	font-family: 'Metropolis-Medium';
+
+}
+
+.show {
+	display: block !important;
+}
+
+.all-content{
+
+	width: 1200px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.inner-content{
+
+	width: 760px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+header{
+	@include clear();
+	
+	.logo{
+		float: left;
+		padding: 34px 0 ;
+
+		p{
+			font-size:20px;
+		}
+	}
+
+	.menu-hide{
+		float: right;
+		display: none;
+		margin: 30px;
+
+		span{
+			font-size: 30px;
+
+		}
+
+	}
+	
+	ul{
+		display: block;
+		float: right;
+
+		li{
+			display: inline-block;
+			padding: 34px 0 27px 16px;
+			a{
+				text-decoration: none;
+				color: #17151a;
+				font-size:20px;
+				padding: 34px 0 27px 16px;
+			}
+		}
+	}
+}
+
+
+.home-page{
+
+
+
+	h3{
+		font-family: 'Metropolis-Bold';
+		font-size:26px;
+		color: #2a2a2a;
+		text-align: center;
+		padding: 60px 0 50px 0;
+	}
+
+
+	.search-block{
+		width: 100%;
+		height: 860px;
+		background: url(../images/back.png);
+		background-size: cover;
+		background-position: center center;
+
+
+		.links-block{
+
+
+			ul{
+
+				padding: 36.5% 0 0 0;
+
+
+				li{
+					display: inline-block;
+
+					a{
+						text-decoration: none;
+						color: #17151a;
+						font-size:26px;
+						font-family: 'Metropolis-Bold';
+						background: rgba(255,255,255,.7);
+						width: 184px;
+						height: 64px;
+						display: inline-block;
+						text-align: center;
+						padding: 17px 0 0 0;
+						border-bottom: 4px solid transparent;
+
+
+					}
+				}
+			}
+		}
+
+		.search{
+
+			>input{
+
+			display: inline-block;
+			width: 750px;
+			height: 60px;
+			border: 8px solid #6dbdb5;
+			margin: 11px 0 0 0 ;
+			font-family: 'Metropolis-Light';
+				font-size:16px;
+				color: #656565;
+				padding: 0 0 0 30px ;
+		}
+
+
+
+
+		}
+	}
+
+
+	.choose-block{
+
+		>.all-content{
+			padding: 65px 0 0 0;
+			height: 540px;
+
+			>div{
+				width: 50%;
+				float: left;
+				height: 100%;
+
+			}
+
+			.left-choose-block{
+
+				h3{
+					text-align: left;
+					padding: 28px 0 50px 0;
+				}
+
+				p{
+					font-size:18px;
+					color: #494949;
+					line-height: 31px;
+				}
+
+				a{
+					text-decoration: none;
+					color: #6dbdb5;
+					font-size:18px;
+					display: inline-block;
+					width: 100%;
+					text-align: right;
+					
+					&:after{
+						content:url("../images/arrow.png");
+
+
+					}
+
+				}
+				
+				
+
+
+			}
+
+			.right-choose-block{
+
+				position: relative;
+				margin:  0;
+				.border-block{
+					border: 1px solid #66bbb0;
+					border-right: 1px solid transparent;
+					position: absolute;
+					right: 0;
+					top: 30px;
+					width: 68%;
+					height: 55.5%;
+
+
+				}
+
+				>img{
+
+					position: absolute;
+					right: 0;
+					top:0;
+					z-index: 1;
+
+				}
+
+
+
+			}
+
+		}
+	}
+
+
+	.help-block{
+		width: 100%;
+		height: 490px;
+		margin: 0  0 90px 0;
+
+		>div{
+			width: 50%;
+			float: left;
+			height: 100%;
+		}
+
+		.help-right-block{
+
+			background: url("../images/houses.png");
+
+		}
+
+		.help-left-block{
+
+			background: #6dbdb5;
+			position: relative;
+
+
+			.help-block-content{
+				width: 600px;
+				right: -15px;
+				position: absolute;
+				color: #ffffff;
+				padding: 150px 0 0 0;
+
+				h2{
+					font-family: 'Metropolis-Bold';
+					font-size:35px;
+
+				}
+
+				p{
+					font-size:24px;
+					padding: 32px 0 48px 0;
+
+				}
+
+				button{
+
+					width: 210px;
+					height: 54px;
+					color: #ffffff;
+					font-size:20px;
+					background: transparent;
+					border: 1px solid;
+					cursor: pointer;
+				}
+
+			}
+		}
+
+	}
+
+
+	.info-block{
+		@include clear();
+
+
+		.img-info{
+			float: left;
+		}
+		.link-info{
+			float: right;
+			width: 67%;
+
+
+			p{
+				background: #e8e8e8;
+				width: 100%;
+				height: 72px;
+				margin: 0 0 19px 0;
+				cursor: pointer;
+
+
+
+				span{
+					display: inline-block;
+					width: 72px;
+					height: 62px;
+					background: #ffffff;
+					text-align: center;
+					padding: 20px 0 0  0;
+					margin: 5px;
+
+
+
+					svg{
+						max-width: 32px;
+						max-height: 23px;
+						g{
+							fill: #959595;
+						}
+					}
+				}
+
+				a{
+					display: inline-block;
+					text-decoration: none;
+					font-size:20px;
+					color: #959595;
+					padding: 0 0 0 19px;
+
+
+				}
+			}
+
+
+
+		}
+
+
+	}
+
+
+	.neighborhood-block{
+		width: 100%;
+		height: 416px;
+		background: url(../images/neighborhood.png);
+		background-size: cover;
+		background-position: center center;
+		text-align: center;
+		margin: 64px 0 0 0;
+
+
+
+		h1{
+			font-size:45px;
+			color: #6dbdb5;
+			font-family: 'Metropolis-Bold';
+			padding: 13% 0 4% 0;
+		}
+
+
+
+		p{
+
+			color: #2a2a2a;
+			font-size: 20px;
+			font-family: 'Metropolis-Light';
+			line-height: 24px;
+			padding: 0 0 4% 0;
+		}
+
+		.neighborhood-search{
+			width: 73.8%;
+			height: 48px;
+			background: transparent;
+			border: 1px solid #6dbdb5;
+			position: relative;
+			margin: 0 auto;
+
+			input{
+				width: 75.5% ;
+				height: 100%;
+				background: #ffffff;
+				position: absolute;
+				left: 0;
+				border: none;
+				font-size:16px;
+				color: #959595;
+				padding: 0 0 0 17px;
+			}
+
+			button{
+				width: 24.5% ;
+				height: 100%;
+				background: #6dbdb5;
+				position: absolute;
+				right: 0;
+				border: none;
+				font-size:20px;
+				color: #ffffff;
+				cursor: pointer;
+
+
+			}
+		}
+	}
+
+
+	.posts-block{
+
+		margin: 0  0 70px 0;
+
+		.posts{
+			@include clear();
+
+			.posts-inner-blocks{
+
+				width: 29.0%;
+				float: left;
+				margin: 0 0 0 5.5%;
+
+				&:first-child{
+
+					margin: 0;
+				}
+
+
+				.post-info{
+
+					h4{
+						font-family: 'Metropolis-Bold';
+						font-size: 19px;
+						color: #012c3e;
+						line-height: 53px;
+					}
+
+					.post-info-blocks{
+
+						@include clear();
+
+
+
+						p{
+							line-height: 50px;
+							span{
+
+								font-size:18px;
+								color: #6d7a7f;
+								padding: 0 0 0 23px;
+
+							}
+						}
+
+
+						.post-info-block-left{
+
+							float: left;
+						}
+
+						.post-info-block-right{
+
+							float: right;
+
+
+						}
+
+
+
+					}
+
+				}
+
+
+			}
+		}
+	}
+
+
+
+
+
+
+}
+
+.contact-page{
+
+	.contact-back-block{
+		width: 100%;
+		height: 310px;
+		background: url("../images/contact.png");
+		background-size: cover;
+		background-position: center center;
+		padding: 130px 0;
+
+
+
+		h1{
+
+			font-family: 'Metropolis-Bold';
+			font-size:51px;
+			color: #6dbdb5;
+			width: 200px;
+			padding: 0  0  20px  0;
+			border-bottom: 1px solid #0d1b17;
+
+		}
+
+	}
+
+	.contact-content{
+		width: 100%;
+		height: 476px;
+		margin: 100px 0;
+		position: relative;
+
+		.content-right-block{
+
+			width: 50%;
+			right: 0;
+			height: 100%;
+			background: #f1f1f1;
+			position: absolute;
+		}
+
+         .all-content{
+			 @include clear();
+
+			 >div{
+				 width: 50%;
+				 float: left;
+
+			 }
+
+			 .contact-left-block{
+
+				 .contact-info-block{
+
+
+					 img{
+
+						 margin:35px 0;
+
+					 }
+
+					 &:first-child{
+						 >img{
+							 margin: 0 0 35px 0;
+						 }
+					 }
+
+
+					 p{
+						 font-size:18px;
+						 color: #00140f;
+						 line-height: 31px;
+					 }
+				 }
+			 }
+
+			 .contact-right-block{
+
+				.contact-forms{
+					margin: 37px 0;
+
+
+					form{
+						input,textarea,button{
+							display: block;
+							width: 90%;
+							height: 54px;
+							color: #00140f;
+							font-size:18px;
+							margin: 0 0 19px 35px;
+							padding: 0 0 0 20px;
+							border: none;
+							border-left: 2px solid #6dbdb5;
+						}
+
+
+						textarea{
+							height: 184px;
+							resize: none;
+						}
+
+						button{
+
+							background: #6dbdb5;
+							color: #ffffff;
+							text-align: center;
+							padding: 0;
+							cursor: pointer;
+
+						}
+					}
+
+				}
+			 }
+
+
+
+
+
+		 }
+	}
+
+	.contact-map{
+		width: 100%;
+		height: 393px;
+		margin: 0 0 100px 0;
+
+		>iframe{
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+}
+
+
+
+
+     footer{
+
+     width: 100%;
+     height: 125px;
+     background: #6dbdb5;
+
+
+		 >.all-content{
+			 @include clear();
+
+			 >div{
+				 width: 50%;
+				 height: 80px;
+				 float: left;
+				 padding: 28px 0  0   0;
+			 }
+		 }
+
+
+		 .footer-left-block{
+
+			 font-size:20px;
+			 color: #2a2a2a;
+		 }
+
+
+		 .footer-right-block{
+			 text-align: right;
+
+
+			 >.footer-links{
+
+
+				 a{
+					 text-decoration: none;
+					 font-size:16px;
+					 color: #ffffff;
+					 padding: 0 5px;
+				 }
+			 }
+		 }
+
+
+		 .footer-bottom-block{
+
+			 width: 100%;
+			 border-top: 1px solid #60a099;
+
+
+			 .social-right{
+                 width: 50%;
+				 float: right;
+				 text-align: right;
+
+
+				 >a{
+					 display: inline-block;
+					 margin:  12px 6px;
+				 }
+			 }
+		 }
+
+
+
+}

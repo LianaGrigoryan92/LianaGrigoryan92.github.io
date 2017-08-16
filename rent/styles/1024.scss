@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1024px) {
+
+  header .menu-hide {
+    display: block;
+    cursor: pointer;
+  }
+
+  header ul {
+    display: none;
+    right: 0;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    background: #fff;
+    z-index: 10;
+    top: 92px;
+  }
+
+  header ul li {
+    display: block;
+    text-align: center;
+    line-height: 5px;
+  }
+
+  section .choose-block > .all-content .right-choose-block .border-block {
+
+    display: none;
+  }
+
+  section .choose-block > .all-content .left-choose-block h3 {
+    padding: 10px 0;
+  }
+
+  section .choose-block > .all-content .left-choose-block p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  section .help-block .help-left-block .help-block-content {
+    width: 350px;
+    padding: 90px 0 0 0;
+  }
+
+  section .info-block .link-info {
+    float: right;
+    width: 49%;
+  }
+
+  section .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks p img {
+
+    max-width: 100%;
+  }
+
+  section .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks p span {
+    font-size: 14px;
+    padding: 0;
+  }
+}

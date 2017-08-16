@@ -1,0 +1,55 @@
+@media only screen and (max-width: 1200px){
+
+  .all-content{
+
+    width: 100%;
+
+  }
+
+  section .help-block .help-left-block .help-block-content {
+    width: 440px;
+    right: 0;
+    padding: 100px 0 0 0;
+  }
+
+  section .info-block .link-info {
+    float: right;
+    width: 60%;
+  }
+
+  section .posts-block .posts .posts-inner-blocks .post-img img{
+    max-width: 100%;
+  }
+
+  section .posts-block .posts .posts-inner-blocks .post-info .post-info-blocks p span {
+    font-size: 16px;
+    padding: 0 0 0 5px;
+  }
+
+  footer > .all-content >.footer-left-block{
+    width: 30%;
+  }
+
+  footer > .all-content > .footer-right-block{
+
+    width: 70%;
+  }
+
+  section .posts-block .posts .posts-inner-blocks .post-info h4 {
+
+    font-size: 16px;
+
+  }
+
+
+  section  .search-block {
+
+    height: 530px;}
+
+  section .search-block .links-block ul {
+    padding: 20% 0 0 0;
+  }
+
+
+
+}

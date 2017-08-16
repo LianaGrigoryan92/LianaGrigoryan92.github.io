@@ -1601,6 +1601,17 @@ footer .content .contact-content .contact-info > p a:first-child {
   .home-page .follow-section .content .follow-images:before {
     display: none;
   }
+
+  .header-section .navigation ul li > a {
+
+    font-size: 35px;
+
+  }
+
+  .header-section .navigation ul {
+    width: 320px;}
+
+
   footer {
     height: 620px;
   }

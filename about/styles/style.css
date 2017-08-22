@@ -379,8 +379,12 @@ h2 {
   .content {
     width: 480px;}
 
-  .info .content .info-right h3:last-of-type {
-    margin-top: 25px;
+  .info .content > div {
+    width: 90%;
+    height: 49%;
+    background: #ffffff;
+    float: none;
+    margin: 0 auto;
   }
 
   .info .content > div p {

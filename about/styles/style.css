@@ -236,6 +236,11 @@ h2 {
   margin-top: 70px;
 }
 
+.projects{
+
+  width: 100%;
+}
+
 .projects:after {
   content: "";
   display: table;
@@ -321,6 +326,21 @@ h2 {
   color: #fff;
 }
 
-/*
-* Ie fixes
-*/
+
+
+@media screen and (max-width: 1210px) {
+
+  .content {
+    width: 1024px;}
+
+  .info .content .info-right {
+
+    padding: 25px 30px 0 30px;
+  }
+
+
+  .projects .portfolio-posts .overlay .post-content-info h3 {
+    font-size: 60px;}
+
+
+}

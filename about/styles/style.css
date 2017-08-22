@@ -344,3 +344,30 @@ h2 {
 
 
 }
+
+
+
+@media screen and (max-width: 1030px) {
+
+  .content {
+    width: 768px;}
+
+  .info .content .info-right h3:last-of-type {
+    margin-top: 25px;
+  }
+
+  .info .content > div p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+
+  .projects .portfolio-posts .overlay .post-content-info h3 {
+    font-size: 45px;}
+
+  .projects .portfolio-posts .overlay .post-content-info p {
+    font-size: 20px;
+    line-height: 22px;
+
+  }
+}

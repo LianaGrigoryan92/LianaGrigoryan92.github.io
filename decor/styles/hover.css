@@ -1,0 +1,114 @@
+.shop-page .shop-page-content-top .collection-block .container .row .room-txt-block button:hover,
+.shop-page .shop-page-content-top .collection-block .container .row .headboard-chair-txt-block button:hover {
+  background-color: #b28f2f;
+}
+
+.shop-page .shop-page-content-top .country-style-pics-block .country-style-pic-title-block button:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+
+.about-page .about-follow-section .content .follow-images > a:hover div>.hover-blocks{
+
+  display: block;
+}
+
+.about-page .about-follow-section .content .follow-images > a:hover div{
+
+  transform: scale(1.1,1.1);
+  transition: 0.3s linear;
+}
+
+
+button:hover:after,  button:active:after{
+
+  height: 100%;
+  transition: all 0.3s;
+
+}
+
+button:hover, button:active{
+
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  border-color: transparent;
+
+}
+
+
+
+.home-page .summer-section .content .summer-left-block button:hover:after{
+
+
+  content: "see all";
+  z-index: 0;
+  padding: 7px 0 0 0;
+  color: #fff;
+
+
+
+}
+
+
+header .navigation .navigation-menu li:hover a{
+
+  color: #b28f2f;
+
+}
+
+.home-page .slider-section .navigation .navigation-menu li a:hover img{
+
+  transform: rotate(360deg);
+  -webkit-transition: all 1s; /* Safari */
+  transition: all 1s;
+}
+
+footer .footer-section .footer-content .content .content-info .social-row .social-link > a:hover img{
+
+  transform: rotate(360deg);
+  -webkit-transition: all 1s; /* Safari */
+  transition: all 1s;
+}
+
+
+.about-page .about-collection-section .content button:hover:after{
+
+
+  content: "go to collections";
+  z-index: 0;
+  padding: 7px 0 0 0;
+  color: #fff;
+
+
+
+}
+
+/*COLLECTIONS HOVER*/
+
+.collections-page .collection-indian-style-section .content .collection-indian-top-block .collection-indian-right-block button:hover:after{
+
+
+  content: "see collection";
+  z-index: 1;
+  padding: 7px 0 0 0;
+  color: #fff;
+
+
+
+}
+
+.collections-page .collection-indian-style-section .content .collection-indian-bottom-block .procent-block .procent-block-content button:hover:after{
+
+
+  content: "shop now";
+  z-index: 1;
+  padding: 7px 0 0 0;
+  color: #fff;
+
+
+
+}

@@ -1,0 +1,804 @@
+
+
+
+@media screen and (max-width: 1024px)  {
+
+
+  header{
+
+    .navigation{
+
+      @include clear();
+
+
+
+
+
+
+
+
+      .navigation-menu{
+
+
+        width:90%;
+
+
+        li {
+
+          padding: 5px;
+
+          &:first-child {
+            padding: 5px 5px 5px 0;
+          }
+        }
+
+
+      }
+
+
+    }
+
+
+  }
+
+  .content{
+    width: 768px;
+
+  }
+
+  .home-page{
+
+    .slider-section{
+
+
+      .decor-slider{
+
+
+        .item{
+
+
+          .slider-list{
+            height: 625px;
+
+
+          }
+        }
+
+
+
+
+      }
+
+    }
+
+
+    .about-section{
+
+
+      .content{
+
+
+        .about-img-block{
+
+
+
+          .about-img{
+
+            width: 350px;
+
+
+
+          }
+
+
+
+        }
+
+      }
+
+    }
+
+    .summer-section{
+
+      height: 400px;
+
+      .content{
+
+
+        .summer-left-block{
+
+          padding: 30px 0 0 0;
+
+          p{
+            margin: 35px;
+          }
+
+        }
+
+        .summer-right-block{
+
+
+
+          .summer-blocks{
+
+
+
+            padding: 60px 16px;
+
+            h3{
+
+              font-size:26px;
+              color: #b28f2f;
+              padding: 0 0 40px 0;
+
+
+
+              &:after{
+
+                content: "";
+                display: block;
+                width: 41px;
+                height: 1px;
+                background: #b28f2f;
+                position: relative;
+                top:15px;
+
+              }
+
+            }
+
+            p{
+
+              color: #434343;
+              font-size:15px;
+              line-height: 20px;
+              font-family: 'Metropolis-Thin';
+
+            }
+
+
+
+
+          }
+
+
+
+        }
+
+
+
+      }
+
+    }
+
+    .shop-section{
+
+      width: 100%;
+      height: 448px;
+      margin: 153px 0 130px 0;
+
+      .content{
+        @include clear();
+        height: 100%;
+
+        >div{
+
+          float: left;
+
+        }
+        .shop-left-block{
+          width: 62.4%;
+          height: 100%;
+          position: relative;
+
+
+          .shop-img-block{
+
+
+
+
+
+            &:after{
+              content: "";
+              display: block;
+              width: 179px;
+              height: 227px;
+              background: url("../images/arrow-shop.png");
+              position: absolute;
+              right: -100px;
+              bottom: -37px;
+              z-index: 1;
+
+
+            }
+
+
+
+
+          }
+
+
+          &:after{
+            content: "";
+            display: block;
+            width: 302px;
+            height: 386px;
+            background: url("../images/treangle.png");
+            position: absolute;
+            right: 0;
+            bottom: -17px;
+            z-index: 0;
+
+
+          }
+
+        }
+
+        .shop-right-block{
+
+          width: 37%;
+          height: 100%;
+          text-align: center;
+          padding: 110px 31px 0 0;
+
+          p{
+
+            font-size:20px;
+            color: #6f6f6f;
+            line-height: 25px;
+            padding: 36px   0;
+
+          }
+
+
+
+        }
+
+      }
+
+
+    }
+
+  }
+
+  footer{
+
+
+
+    .footer-back{
+      width: 49%;
+    }
+  }
+
+  .about-page .about-philosophy-section .content .about-philosophy-right-block {
+    background: none;
+    width: 0;
+  }
+
+  .about-page .about-philosophy-section .content .about-philosophy-left-block .philosophy-left-block-content p {
+    width: 100%;
+  }
+
+  .about-page .about-mission-section .about-mission-left-block {
+    background: none;
+    width: 0;
+  }
+
+  .about-page .about-mission-section .about-mission-right-block {
+    width: 100%;
+  }
+
+  .about-page .about-mission-section .about-mission-right-block p {
+    font-size: 18px;
+  }
+
+
+  /*COLLECTION PAGE*/
+
+  .collections-page{
+
+    .block-title{
+      font-size:30px;
+      padding: 0 0 16px 0;
+
+    }
+
+    .block-button{
+
+      width: 150px;
+
+
+    }
+
+
+    .collection-east-style-section{
+
+
+
+      .content{
+
+        .east-style-left-block{
+
+
+
+          .indian-style{
+
+            width: 100%;
+            height: 200px;
+            padding: 40px 0 0 0;
+
+          }
+
+
+          .east-style-bottom{
+
+            height: 200px;
+
+
+            >div{
+
+              padding: 40px 0 0 0;
+
+            }
+
+
+
+
+
+          }
+
+        }
+
+
+        .east-style-right-block{
+
+
+
+          .moroccan-style{
+
+            height: 418px;
+            padding: 160px 0 0 0;
+
+            .block-title{
+
+              font-size:20px;
+            }
+
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .collection-indian-style-section{
+
+
+      height: 100%;
+
+
+      .content{
+        h2{
+          font-size:20px;
+
+
+        }
+
+
+        button{
+
+          width: 130px;
+
+
+        }
+
+        .collection-indian-top-block{
+
+          height: 170px;
+
+
+          .collection-indian-right-block{
+
+
+
+
+            .collection-indian-right-content{
+
+              width: 176px;
+              padding: 25px 0 0 0;
+
+
+
+              p{
+                margin: 10px 0;
+                line-height: 18px;
+              }
+
+
+            }
+
+
+
+
+          }
+        }
+
+        .collection-indian-bottom-block{
+
+          @include clear();
+          margin: 18px 0 0 0;
+
+          >div{
+
+            float: left;
+            height: 200px;
+
+            .block-title{
+              font-size:25px;
+
+            }
+
+          }
+
+          .procent-block{
+
+
+            .procent-block-content{
+
+              margin: 0 auto;
+              position: relative;
+              width: 100%;
+              padding: 30px 0 0 5px;
+
+              p{
+
+                margin: 20px 0;
+                font-size:20px;
+
+              }
+
+            }
+
+
+
+
+          }
+
+
+          .arabian-style{
+
+
+            padding: 50px 0 0 0;
+
+
+          }
+
+
+
+          .chlies-style{
+
+
+            padding: 50px 0 0 0;
+
+
+          }
+
+        }
+
+      }
+
+
+    }
+
+    .collection-img-section{
+
+      height: 350px;
+
+    }
+
+
+    .collection-what-section{
+
+      .content{
+
+
+        .collection-what-left-block{
+
+          .collection-what-left-content{
+
+            padding: 80px 0 0 10px;
+
+            h3{
+
+
+              font-size:18px;
+
+            }
+
+
+            p{
+
+              font-size:16px;
+              margin: 10px 0 0 0;
+            }
+
+
+
+          }
+
+
+          .collection-what-left-img{
+
+            height: 290px;
+
+
+          }
+
+        }
+
+
+
+        .collection-what-right-block{
+
+          >div{
+
+
+            height: 365px;
+
+
+          }
+
+        }
+
+      }
+
+    }
+
+
+    .collection-popular-section{
+
+      margin: 18px 0 50px 0;
+      .content{
+
+        @include clear();
+
+        >div{
+
+          float: left;
+          height: 190px;
+        }
+
+        .collection-popular-right-block{
+
+          &:after {
+
+            width: 260px;
+            height: 330px;
+            background-size: cover;
+            background-position: right;
+          }
+
+
+
+        }
+
+      }
+
+    }
+
+
+    .collection-img-second-section{
+
+      height: 450px;
+
+
+    }
+
+
+
+    .collection-join-section{
+
+      padding: 95px 0 0 0;
+      height: 280px;
+
+
+      &:before{
+
+
+        width: 400px;
+        height: 158px;
+        top: 85px;
+        background-size: 100% 100%;
+
+      }
+
+      .content{
+
+        >div{
+
+          float: left;
+
+        }
+
+        .collection-join-left-block{
+
+          width: 36%;
+
+          h2{
+
+            font-size:25px;
+
+          }
+
+
+          p{
+
+
+            font-size:16px;
+            margin: 20px 0 0 0;
+
+          }
+
+        }
+
+
+        .collection-join-right-block{
+
+          width: 64%;
+
+          .collection-join-right-content{
+
+            width: 100%;
+            height: 47px;
+            border: 1px solid #636363;
+            position: relative;
+
+            input{
+
+              width: 78%;
+              height: 100%;
+              border: none;
+              font-family: 'Metropolis-Light';
+              padding: 0 0 0 22px;
+              position: absolute;
+              left: 0;
+
+              &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+                color: #9c9c9c;
+              }
+              &::-moz-placeholder { /* Firefox 19+ */
+                color: #9c9c9c;
+              }
+              &:-ms-input-placeholder { /* IE 10+ */
+                color: #9c9c9c;
+              }
+              &:-moz-placeholder { /* Firefox 18- */
+                color: #9c9c9c;
+              }
+
+
+            }
+
+            button{
+              width: 22%;
+              height: 47px;
+              position: absolute;
+              right: -1px;
+              top: -1px;
+              background: #b28f2f;
+              color: #ffffff;
+              font-family: 'Metropolis-Medium';
+              border: none;
+              font-size:23px;
+            }
+
+
+
+
+          }
+
+
+        }
+
+      }
+
+    }
+
+
+
+
+  }
+
+
+  /*COLLECTION END*/
+
+
+}
+
+@media screen and (max-width: 992px) {
+  .shop-page .shop-page-content-top .search-block .search-list .shop-search-icon input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .shop-page .shop-page-content-top .search-block .search-list .shop-select select {
+    width: 100%;
+    border-left: 1px solid #ccc;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .shop-page .shop-page-content-top .search-block .search-list button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .shop-page .shop-page-content-top .search-block .search-list .shop-select:after {
+    right: -170px;
+  }
+
+  .shop-page .shop-page-content-top .collection-block .container .row .headboard-chair-txt-block,
+  .shop-page .shop-page-content-top .collection-block .container .row .headboard-chair-txt-block button,
+  .shop-page .shop-page-content-top .collection-block .container .row .room-txt-block button,
+  .shop-page .shop-page-content-top .collection-block .container .row .room-txt-block
+  {
+    width: auto;
+  }
+
+  .shop-page .shop-page-content-top .collection-block .container .row .headboard-chair-txt-block h2 {
+    font-size: 18px;
+  }
+
+  .shop-page .shop-page-content-top .collection-block .container .row .room-txt-block h2 {
+    font-size: 20px;
+  }
+
+  .shop-page .shop-page-content-top .collection-block .container .row .room-txt-block button {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-page .about-subscribe-section h2 {
+    font-size: 25px;
+  }
+
+  .about-page .about-subscribe-section .search-block, .about-page .about-subscribe-section .search-block:after {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content-767 {
+    width: 100%!important;
+  }
+
+  .about-page .about-mission-section .about-mission-right-block {
+    padding-right: 77px;
+  }
+
+  .about-page .about-collection-section p {
+    width: auto;
+    font-size: 20px;
+  }
+
+  .search-list {
+    padding-left: 30px !important;
+    padding-right: 30px!important;
+  }
+
+  .shop-page .shop-page-content-top .search-block .wishlist-block {
+    padding-right: 30px;
+  }
+
+  .shop-page .shop-page-content-top .collection-block .container .row .room-pic {
+    margin-bottom: 10px;
+  }
+
+  .shop-page .shop-page-content-top .collection-block .container .row .headboard-pic,
+  .shop-page .shop-page-content-top .collection-block .container .row .chair-pic {
+    text-align: center;
+  }
+}

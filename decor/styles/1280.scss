@@ -1,0 +1,367 @@
+@media screen and (max-width: 1280px)  {
+
+  .content{
+    width: 1024px;
+
+  }
+
+  h2{
+
+    color: #b28f2f;
+    font-size:35px;
+    text-transform: uppercase;
+  }
+
+  header{
+
+    .navigation{
+
+      @include clear();
+
+
+
+
+
+
+
+
+      .navigation-menu{
+
+
+        width:80%;
+
+
+        li{
+
+          padding: 5px 10px;
+
+
+          &:first-child {
+            padding: 5px 10px 5px 0;
+          }
+        }
+
+
+
+      }
+
+
+    }
+
+
+  }
+
+
+  .home-page{
+
+    .slider-section{
+
+
+      .decor-slider{
+
+
+        .item{
+
+
+          .slider-list{
+            height: 835px;
+
+
+          }
+        }
+
+
+
+
+      }
+
+    }
+
+
+    .summer-section{
+
+
+      .content{
+
+
+        .summer-left-block{
+
+          padding: 90px 0 0 0;
+
+        }
+
+
+
+      }
+
+    }
+
+    .shop-section{
+
+      width: 100%;
+      height: 448px;
+      margin: 153px 0 130px 0;
+
+      .content{
+        @include clear();
+        height: 100%;
+
+        >div{
+
+          float: left;
+
+        }
+        .shop-left-block{
+          width: 62.4%;
+          height: 100%;
+          position: relative;
+
+
+          .shop-img-block{
+
+
+
+
+
+            &:after{
+              content: "";
+              display: block;
+              width: 179px;
+              height: 227px;
+              background: url("../images/arrow-shop.png");
+              position: absolute;
+              right: -100px;
+              bottom: -37px;
+              z-index: 1;
+
+
+            }
+
+
+
+
+          }
+
+
+          &:after{
+            content: "";
+            display: block;
+            width: 302px;
+            height: 386px;
+            background: url("../images/treangle.png");
+            position: absolute;
+            right: 0;
+            bottom: -17px;
+            z-index: 0;
+
+
+          }
+
+        }
+
+        .shop-right-block{
+
+          width: 37%;
+          height: 100%;
+          text-align: center;
+          padding: 110px 31px 0 0;
+
+          p{
+
+            font-size:20px;
+            color: #6f6f6f;
+            line-height: 25px;
+            padding: 36px   0;
+
+          }
+
+
+        }
+
+      }
+
+
+    }
+
+  }
+
+  footer{
+
+    height: 450px;
+
+
+
+
+    .footer-section{
+
+      width: 100%;
+      height: 400px;
+      background: #e8e8e8;
+      position: relative;
+      top:50px;
+      padding: 73px 0 63px 0;
+
+      .footer-content{
+
+        width: 100%;
+        height: 280px;
+
+        border-top: 1px solid #b28f2f;
+        border-bottom: 1px solid #b28f2f;
+
+        .content{
+
+          padding: 52px 0 0 0;
+          color: #6f6f6f;
+
+          .content-info{
+
+            position: relative;
+            z-index: 10;
+
+            .logo-row{
+
+              >img{
+                width: 89px;
+                height: auto;
+              }
+            }
+
+            .text-row{
+
+              font-size:16px;
+              margin: 32px 0 52px 0;
+
+            }
+
+            .social-row{
+              @include clear();
+
+              >p{
+
+                float: left;
+                text-align: center;
+                height: 14px;
+                border-right: 1px solid #b3912e;
+
+
+
+              }
+
+              .phone{
+
+                width: 137px;
+
+
+                span{
+
+                  &:before{
+                    content: "";
+                    display: inline-block;
+                    width: 13px;
+                    height: 13px;
+                    background: url(../images/icon/phone.png);
+                    background-size: 100% 100%;
+                    margin: 0 8px 0 0;
+                  }
+                }
+              }
+
+              .mail{
+
+                width: 260px;
+
+
+                span{
+
+                  &:before{
+                    content: "";
+                    display: inline-block;
+                    width: 15px;
+                    height: 10px;
+                    background: url(../images/icon/mail.png);
+                    background-size: 100% 100%;
+                    margin: 0 8px 0 0;
+                  }
+                }
+              }
+
+              .social-link{
+
+                border: none;
+                padding: 0 0 0 34px;
+
+                >a{
+                  text-decoration: none;
+                  display: inline-block;
+                  margin: 0 16px 0 0;
+                }
+
+              }
+
+
+            }
+
+          }
+
+
+        }
+
+      }
+
+    }
+  }
+
+  /*about page*/
+
+  .about-page .about-philosophy-section .content .about-philosophy-right-block {
+    width: 46%;
+  }
+
+  .about-page .about-philosophy-section .content .about-philosophy-left-block .philosophy-left-block-content p {
+    font-size: 18px;
+  }
+
+  .about-page .about-mission-section .about-mission-left-block {
+    width: 50%;
+  }
+
+  /*shop page*/
+  .shop-page .shop-page-content-top .search-block .search-list .shop-search-icon input {
+    width: auto;
+  }
+
+  .shop-page .shop-page-content-top .search-block .search-list .shop-select select {
+    width: 200px;
+  }
+
+  .search-list {
+    padding-left: 15px;
+  }
+
+  .shop-page .shop-page-content-top .search-block .wishlist-block {
+    padding-right: 15px;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .pr15 {
+    padding-right: 15px!important;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  .about-page .about-philosophy-section .content .about-philosophy-left-block {
+    left: 0;
+  }
+
+  .about-page .about-philosophy-section .content .about-philosophy-left-block .philosophy-left-block-content p {
+    width: 375px;
+    font-size: 16px;
+  }
+}
+
+/*about page---end*/
+
+

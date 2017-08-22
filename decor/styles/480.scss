@@ -1,0 +1,1201 @@
+
+
+@media screen and (max-width: 480px)  {
+
+
+
+
+  .content{
+    width: 320px;
+
+
+  }
+
+  header{
+
+    .content{
+      width: 100%;
+
+
+    }
+
+    .navigation{
+
+      @include clear();
+
+
+      .navigation-head{
+
+        width: 80%;
+        position: relative;
+        margin: 0 auto;
+        float: none;
+        border: none;
+
+        @include clear();
+
+        .search-icon{
+          display: block;
+        }
+
+        .search-block{
+
+          display: none;
+          margin:  0;
+          position: absolute;
+          top: 22px;
+          width: 95%;
+
+          button{
+            font-size: 8px;
+          }
+        }
+
+
+
+        .menu-hide{
+
+          display: block;
+          float: right;
+          cursor: pointer;
+          margin: 34px 0 0 0;
+        }
+
+        .logo{
+
+          margin: 15px 0 0 0;
+
+        }
+      }
+
+
+
+
+
+
+      .navigation-menu{
+
+        display: none;
+        height: 400px;
+        width: 50%;
+        background: rgb(255, 255, 255);
+        position: absolute;
+        z-index: 10;
+        top: -22px;
+        right: 0;
+
+
+        li {
+
+
+          width: 90%;
+          &:last-child{
+
+
+            float: none;
+
+
+            ul{
+              @include clear();
+
+              li{
+
+                float: left;
+                width: 33%;
+                padding: 20px 0 ;
+
+                &:first-child{
+
+                  padding: 20px 0 ;
+                }
+
+
+
+
+
+
+              }
+            }
+
+
+          }
+
+        }
+
+
+      }
+
+
+    }
+
+
+  }
+
+  .home-page{
+
+    h2{
+      font-size:25px;
+    }
+
+    .slider-section{
+
+
+      .decor-slider{
+
+        .owl-dots {
+
+          right: 20px;
+          top: 55%;
+
+        }
+
+        .item{
+
+
+          .slider-list{
+            height: 400px;
+
+
+            h1 {
+
+              font-size: 30px;
+              margin: 0 0 25px 0;
+            }
+
+            p {
+              font-size: 22px;
+            }
+
+
+
+
+          }
+        }
+
+
+
+
+      }
+
+    }
+
+
+    .about-section{
+
+      width: 100%;
+      height: 100%;
+      padding: 20px 0;
+
+      .content{
+
+        >div {
+          width: 100%;
+          float: none;
+        }
+
+        .about-text-block{
+
+          h2 {
+            margin: 25px 0 0 0;
+          }
+
+          .tabs-menu{
+
+
+            width: 100%;
+            margin: 34px 0 40px 0;
+
+            span{
+              font-size:14px;
+              color: #646464;
+              cursor: pointer;
+              display: inline-block;
+
+
+              &:first-child{
+
+                padding: 0 75px 0 0px;
+
+
+
+              }
+
+            }
+
+          }
+
+          .tabs-content {
+            >div{
+              padding: 0 15px 0 0;
+            }
+
+          }
+        }
+
+        .about-img-block{
+
+
+
+          .about-img{
+
+            width: 96%;
+            height: 340px;
+            margin: 40px 0 ;
+
+          }
+
+
+          .about-img-effects{
+            height: 340px;
+          }
+
+
+
+        }
+
+      }
+
+    }
+
+    .summer-section{
+
+      height: 100%;
+      margin: 0;
+
+      .content{
+
+        >div {
+          width: 100%;
+          float: none;
+        }
+
+
+        .summer-left-block{
+
+
+          height: 270px;
+
+          p{
+            margin: 15px 0;
+          }
+
+
+
+
+        }
+
+        .summer-right-block{
+
+          height: 800px;
+
+
+          .summer-blocks{
+
+            width: 100%;
+            height: 25%;
+            float: none;
+
+
+
+            padding: 60px 16px;
+
+            h3{
+
+              font-size:26px;
+              color: #b28f2f;
+              padding: 0 0 40px 0;
+
+
+
+              &:after{
+
+                content: "";
+                display: block;
+                width: 41px;
+                height: 1px;
+                background: #b28f2f;
+                position: relative;
+                top:15px;
+
+              }
+
+            }
+
+            p{
+
+              color: #434343;
+              font-size:15px;
+              line-height: 20px;
+              font-family: 'Metropolis-Thin';
+
+            }
+
+
+
+
+          }
+
+
+
+        }
+
+
+
+      }
+
+    }
+
+    .shop-section{
+
+      width: 100%;
+      height: 250px;
+      margin:  0;
+
+      .content{
+        @include clear();
+        height: 100%;
+
+        >div{
+
+          float: none;
+          width: 100%;
+
+        }
+        .shop-left-block{
+          display: none;
+
+
+
+          .shop-img-block{
+
+
+
+            width: 100%;
+
+
+            &:after{
+              content: "";
+              display: none;
+
+
+
+            }
+
+
+
+
+          }
+
+
+          &:after{
+            display: none;
+
+
+          }
+
+        }
+
+        .shop-right-block{
+
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          padding: 20px 16px 0 0;
+
+
+          p {
+            font-size: 14px;
+            color: #6f6f6f;
+            line-height: 23px;
+            padding: 10px 0;
+          }
+
+
+
+
+        }
+
+      }
+
+
+    }
+
+  }
+
+  .about-page{
+
+
+    .about-poems-section{
+
+
+
+
+      .content{
+        .butterfly-border{
+
+
+
+          &:after{
+
+
+            left: -15px;
+
+          }
+
+        }
+
+        .about-poems-top-row{
+
+          width: 100%;
+          height: 680px;
+          background: url("../images/poems-back.png");
+          background-position: right;
+          background-repeat: no-repeat;
+
+
+          h2{
+
+            left: 174px;
+            font-size: 25px;
+          }
+
+          .about-poems-top-left-block{
+
+            width: 320px;
+            height: 100%;
+            position: relative;
+
+
+
+
+
+            .about-poems-first{
+
+              width: 320px;
+              height: 565px;
+              background: #f0f0f0;
+              padding: 36px 0 0 45px;
+
+
+
+              .poem-title{
+
+                font-size:27px;
+                color: #5a5a5a;
+                margin: 0 0 27px 0;
+                position: relative;
+                font-family: 'Metropolis-Medium';
+
+
+                &:after{
+
+                  content: "";
+                  display: inline-block;
+                  width: 48px;
+                  height: 46px;
+                  background: url("../images/butterfly.png");
+                  margin: 0 0 -16px 13px;
+                }
+
+              }
+
+              .poem{
+                >p{
+
+
+
+                  &:nth-child(5){
+
+                    width: 320px;
+                  }
+
+                }
+
+              }
+
+
+            }
+
+            .about-poems-second{
+
+              width: 310px;
+              height: 236px;
+              background: #f0f0f0;
+              float: none;
+              margin: -60px 0 0 14px;
+              text-align: right;
+              padding: 25px 12px 0 0;
+
+
+
+
+
+            }
+
+
+
+
+
+
+
+
+          }
+
+        }
+
+        .about-poems-bottom-row{
+
+          width: 320px;
+          padding: 11px 0 0 33px;
+
+          .poem-title-gold{
+
+            font-size:27px;
+            color: #b38e2e;
+            margin: 0 0 10px 0;
+            font-family: 'Metropolis-SemiBold';
+
+          }
+
+          span{
+
+            font-family: 'Metropolis-Light';
+
+          }
+
+          .poem-second{
+            font-size:14px;
+
+            >p{
+              margin: 22px 0 0 0;
+
+              &:first-child{
+
+                margin: 35px 0 0 0;
+              }
+            }
+
+          }
+
+
+          &:after{
+
+            content: "";
+            display: none;
+
+
+          }
+
+
+
+
+
+
+        }
+
+        .about-poems-border-row{
+
+
+          display: none;
+
+
+        }
+      }
+
+    }
+
+    .about-philosophy-section{
+
+
+      .content{
+
+
+
+        .about-philosophy-left-block{
+
+
+
+          .philosophy-left-block-content{
+
+
+
+
+            h2{
+
+              &:before{
+
+                content: "";
+                display:none;
+
+              }
+
+            }
+
+
+
+          }
+
+
+        }
+
+        .about-philosophy-right-block{
+
+
+          &:before{
+
+            content: "";
+            display: none;
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .about-follow-section{
+
+
+      .content{
+
+        .follow-images{
+          margin: 81px 0 152px 0;
+          text-align: center;
+
+          @include  clear();
+
+          >a{
+
+
+
+
+            >div{
+              float: none;
+
+
+              margin: 0 ;
+
+
+
+
+
+
+
+            }
+
+          }
+
+
+        }
+      }
+
+
+    }
+
+  }
+
+  /*COLLECTION PAGE*/
+
+  .collections-page{
+
+    .block-title{
+      font-size:18px;
+      padding: 0 0 16px 0;
+
+    }
+
+    .block-button{
+
+      width: 130px;
+
+
+    }
+
+
+
+
+    .collection-indian-style-section{
+
+
+      height: 100%;
+
+
+      .content{
+        h2{
+          font-size:20px;
+
+
+        }
+
+
+        button{
+
+          width: 130px;
+
+
+        }
+
+        .collection-indian-top-block{
+
+          height: 170px;
+
+          .collection-indian-left-block{
+
+            display: none;
+          }
+
+
+          .collection-indian-right-block{
+
+            width: 100%;
+
+            .collection-indian-right-content{
+
+              width: 176px;
+              padding: 25px 0 0 0;
+
+
+
+              p{
+                margin: 10px 0;
+                line-height: 18px;
+              }
+
+
+            }
+
+
+
+
+          }
+        }
+
+        .collection-indian-bottom-block{
+
+          @include clear();
+          margin: 18px 0 0 0;
+
+          >div{
+
+            float: left;
+            height: 170px;
+
+            .block-title{
+              font-size:20px;
+
+            }
+
+          }
+
+          .procent-block{
+
+            width: 50%;
+
+
+            .procent-block-content{
+
+              margin: 0 auto;
+              position: relative;
+              width: 100%;
+              padding: 20px 0 0 5px;
+
+              p{
+
+                margin: 10px 0;
+                font-size:18px;
+
+              }
+
+            }
+
+
+
+
+          }
+
+
+          .arabian-style{
+
+
+            padding: 50px 0 0 0;
+            width: 50%;
+
+
+          }
+
+
+
+          .chlies-style{
+
+            width: 100%;
+            padding: 50px 0 0 0;
+            margin: 18px 0 0 0;
+
+
+          }
+
+        }
+
+      }
+
+
+    }
+
+    .collection-img-section{
+
+      height: 600px;
+
+      .content{
+
+        >div{
+          float: none;
+          width: 100%;
+          height: 50%;
+        }
+
+        .collection-img-right-block{
+
+          margin: 18px 0 0 0;
+
+        }
+
+      }
+
+
+    }
+
+
+    .collection-what-section{
+
+      .content{
+
+        >div{
+          float: none;
+          width: 100%;
+        }
+
+
+        .collection-what-left-block{
+
+          width: 100%;
+          .collection-what-left-content{
+
+            padding: 45px 0 0 10px;
+
+            &:before {
+
+              width: 100px;
+              height: 160px;
+              top: 0;
+              background-size: cover;
+            }
+
+            h3{
+
+
+              font-size:16px;
+
+            }
+
+
+            p{
+
+              font-size:14px;
+              margin: 10px 0 0 0;
+            }
+
+
+
+          }
+
+
+          .collection-what-left-img{
+
+
+            height: 400px;
+            margin: 70px 0 0 0;
+
+
+          }
+
+        }
+
+
+
+        .collection-what-right-block{
+          width: 100%;
+          margin: 18px 0 0 0;
+          >div{
+
+
+            height: 200px;
+
+
+          }
+
+        }
+
+      }
+
+    }
+
+
+    .collection-popular-section{
+
+      margin: 18px 0 50px 0;
+      .content{
+
+        @include clear();
+
+        >div{
+
+          float: left;
+          height: 110px;
+        }
+
+        .collection-popular-right-block{
+
+          &:after {
+
+            display: none;
+          }
+
+
+          .collection-popular-right-content {
+            width: 100%;
+            text-align: right;
+
+
+            h3{
+
+              font-size: 18px;
+              line-height: 18px;
+            }
+
+            p {
+              font-size: 12px;
+              line-height: 16px;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+
+    .collection-img-second-section{
+
+      padding:  5px 0;
+      height: 750px;
+
+      .content{
+        div{
+          height: 48%;
+        }
+      }
+
+    }
+
+
+
+    .collection-join-section{
+
+      padding: 80px 0 0 0;
+      height: 200px;
+
+
+      &:before{
+
+
+        display: none;
+
+
+      }
+
+      .content{
+
+        >div{
+
+          float: none;
+
+        }
+
+        .collection-join-left-block{
+
+          width: 100%;
+
+
+
+        }
+
+
+        .collection-join-right-block{
+
+          width: 100%;
+          margin: 18px 0 0 0;
+
+
+
+
+        }
+
+      }
+
+    }
+
+
+
+
+  }
+
+
+  /*COLLECTION END*/
+
+
+  footer{
+
+    margin: 50px 0 0 0;
+
+    .footer-back{
+      display: none;
+    }
+
+    .footer-section{
+      .footer-content{
+
+        .content{
+
+          padding: 15px 0 0 0;
+
+          .content-info{
+            .text-row {
+
+              margin: 25px 5px;
+              line-height: 24px;
+
+            }
+
+            .social-row{
+
+              .phone {
+                width: 100%;
+                border: none;
+                margin: 0 0 15px 0;
+              }
+
+              .mail{
+
+                width: 100%;
+                border: none;
+                margin: 0 0 15px 0;
+              }
+
+              .social-link {
+                border: none;
+                padding: 0 0 0 34px;
+                width: 100%;
+                text-align: center;
+              }
+
+            }
+
+          }
+
+        }
+      }
+
+    }
+  }
+
+  /*about page*/
+
+  .about-page .about-title-section h2 {
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  .content-480 {
+    width: 100%;
+  }
+
+  .about-page .about-philosophy-section .content .about-philosophy-left-block .philosophy-left-block-content {
+    padding-right: 15px;
+  }
+
+  .about-page .about-philosophy-section .content .about-philosophy-left-block .philosophy-left-block-content h2 {
+    font-size: 25px;
+  }
+
+  .about-page .about-philosophy-section .content .about-philosophy-left-block .philosophy-left-block-content p {
+    font-size: 14px;
+  }
+
+  .about-page .about-mission-section .about-mission-right-block p {
+    font-size: 14px;
+  }
+
+  .about-page .about-mission-section .about-mission-right-block {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .about-page .about-collection-section p {
+    font-size: 16px;
+    margin-left: 15px;
+  }
+
+  .about-page .about-collection-section button {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .about-page .about-collection-section button {
+    width: 80%;
+    margin-left: 20px;
+  }
+
+  .about-page .about-subscribe-section h2 {
+    font-size: 18px;
+  }
+
+  .about-page .about-subscribe-section p, .about-page .about-subscribe-section .search-block button {
+    font-size: 14px;
+  }
+
+  /*about page---end*/
+
+  .about-page .about-subscribe-section .search-block, .about-page .about-subscribe-section .search-block:after {
+    width: 90%;
+    margin-left: 7px;
+    background: none;
+  }
+
+  .about-page .about-subscribe-section h2 {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .about-page .about-subscribe-section p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  footer .footer-section .footer-content .content .content-info .text-row {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+  }
+
+  .logo-row {
+    margin-left: 15px;
+  }
+
+
+}

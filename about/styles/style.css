@@ -426,6 +426,10 @@ h2 {
   }
 
 
+  .projects .portfolio-posts {
+
+    width: 100%;
+    float: none;}
 
   .projects .portfolio-posts .overlay .post-content-info h3 {
     font-size: 35px;}

@@ -387,6 +387,9 @@ h2 {
     margin: 0 auto;
   }
 
+  .info .content .info-right {
+    float: none;}
+
   .info .content > div p {
     font-size: 20px;
     line-height: 34px;

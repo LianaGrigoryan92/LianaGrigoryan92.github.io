@@ -379,6 +379,12 @@ h2 {
   .content {
     width: 480px;}
 
+  .info {
+
+    height: 800px;
+    padding: 15px 0;
+  }
+
   .info .content > div {
     width: 90%;
     height: 49%;
@@ -396,12 +402,37 @@ h2 {
   }
 
 
+  .info .content .info-left h3 {
+    margin-top: 0;
+  }
+
+  .info .content > div p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .info .content > div h3 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+
+  }
+
+  .info-right {
+    padding: 10px;
+  }
+
+  .info .content .info-right h3:last-of-type {
+    margin-top: 10px;
+  }
+
+
+
   .projects .portfolio-posts .overlay .post-content-info h3 {
-    font-size: 45px;}
+    font-size: 35px;}
 
   .projects .portfolio-posts .overlay .post-content-info p {
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 20px;
 
   }
 }

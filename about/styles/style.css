@@ -287,7 +287,7 @@ h2 {
 }
 
 .projects .portfolio-posts .overlay .post-content-info {
-  width: 58%;
+  width: 100%;
   display: inline-block;
   vertical-align: middle;
   position: relative;

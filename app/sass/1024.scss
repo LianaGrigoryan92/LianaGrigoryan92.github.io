@@ -1,0 +1,742 @@
+@media screen and (max-width: 1050px){
+  .site-header {
+    height: 64px;
+    .cont {
+      width: 768px;
+
+      .left-block {
+
+        .site-logo {
+          width: 155px;
+          height: 64px;
+        }
+      }
+
+      .right-block {
+        margin: 18px 0 0 0;
+        float: right;
+        @include clear();
+
+        nav {
+
+          ul {
+            li {
+              margin: 0 0 0 15px;
+
+              a {
+                font-size: 14px;
+                line-height: 14px;
+              }
+            }
+          }
+        }
+
+        .login-block {
+          float: left;
+
+          a {
+            padding: 7px 10px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .home-page {
+    .top-banner-block {
+      height: 560px;
+
+      .overlay {
+
+        .top-phone-image {
+          width: 196px;
+          height: 246px;
+        }
+      }
+
+      .cont {
+        width: 768px;
+        top: 200px;
+      }
+    }
+
+    .modern-tools-block {
+      padding: 130px 0 0 0;
+      .cont {
+        width: 768px;
+
+        .ak-row {
+          margin: 50px 0 0 0;
+
+          .block {
+            width: 300px;
+            margin: 0 168px 75px 0;
+
+            &:nth-of-type(3n+3) {
+              margin: 0 168px 75px 0;
+            }
+
+            &:nth-of-type(2n+2) {
+              margin: 0 0 75px 0;
+            }
+          }
+        }
+      }
+    }
+
+    .construcion-notice-block {
+      margin: 100px 0 0 0;
+      .cont {
+        width: 768px;
+
+        .ak-row {
+
+          >.left-block {
+            display: none;
+          }
+
+          >.right-block {
+            width: 100%;
+            float: none;
+          }
+        }
+
+      }
+    }
+
+    .home-page-carousel-block {
+      margin: 80px 0 0 0;
+      padding: 50px 0 30px;
+      .cont {
+        width: 768px;
+        .owl-carousel {
+
+          .owl-stage-outer {
+            .owl-stage {
+              .owl-item {
+                .item {
+                  .slider-list {
+
+                    .left-block {
+                      width: 400px;
+                    }
+
+                    .right-block {
+                      width: 368px;
+
+                    }
+                  }
+                }
+              }
+            }
+
+          }
+
+          .owl-dots {
+            margin: 50px 0 0 0;
+            display: inline-block;
+            @include clear();
+
+            .owl-dot {
+              float: left;
+              margin: 0 0 0 5px;
+              background-color: #c7c7c7;
+              width: 48px;
+              height: 4px;
+
+              &.active {
+                background-color: #a3a3a3;
+              }
+            }
+          }
+
+          .owl-nav {
+            display: block;
+            position: absolute;
+            top: 50%;
+            margin: -17px 0 0 0;
+            width: 100%;
+
+            .owl-prev {
+              width: 16px;
+              height: 34px;
+              position: absolute;
+              left: -30px;
+              background-image: url("../images/prew-icon.png");
+              background-size: 100% 100%;
+              background-repeat: no-repeat;
+              text-indent: -9999px;
+            }
+
+            .owl-next {
+              width: 16px;
+              height: 34px;
+              position: absolute;
+              right: -30px;
+              background-image: url("../images/next-icon.png");
+              background-size: 100% 100%;
+              background-repeat: no-repeat;
+              text-indent: -9999px;
+            }
+          }
+
+        }
+      }
+    }
+
+    .bottom-banner-block {
+
+      .overlay {
+
+        .cont {
+          width: 768px;
+        }
+      }
+    }
+
+    .our-solutions-block {
+
+      .cont {
+        width: 768px;
+
+        .ak-row {
+
+          .block {
+            margin: 0 0 0 82px;
+          }
+        }
+      }
+    }
+
+    .our-pricing-block {
+      padding: 40px 0 50px;
+
+      .cont {
+        width: 768px;
+
+        .ak-row {
+          margin: 60px 0 0 0;
+
+          .block {
+            width: 311px;
+            height: 400px;
+            float: none;
+            display: inline-block;
+
+            &:nth-of-type(2) {
+              float: right;
+            }
+
+            &:last-child {
+              display: block;
+              margin: 20px auto;
+              float: none;
+            }
+          }
+        }
+      }
+    }
+
+    .partners-block {
+      margin: 30px 0 0 0;
+      padding: 50px 0;
+      .cont {
+        width: 768px;
+        ul {
+
+          li {
+            width: 153px;
+            height: 150px;
+          }
+        }
+      }
+    }
+  }
+
+  .content{
+    width: 768px;
+
+  }
+
+  .recording-page{
+
+    h2{
+
+
+      font-size:35px;
+
+
+
+      &:after{
+        width: 60px;
+
+
+      }
+
+
+
+
+    }
+
+    .recording-info-section{
+
+
+      height: 577px;
+
+
+
+      .content{
+
+        @include clear();
+        height: 100%;
+        padding: 70px 0 0 0;
+
+        >div{
+
+          float: left;
+          width: 50%;
+          height: 100%;
+
+
+
+        }
+
+
+        .recording-info-right-block{
+
+          padding: 0 0 0 10px;
+
+          p{
+
+
+            font-size:22px;
+
+
+          }
+
+          button{
+
+            width: 200px;
+
+
+          }
+
+
+        }
+
+      }
+
+    }
+
+
+
+    .recording-time-section{
+
+      .recording-time-content{
+
+
+        padding: 30px;
+
+        p {
+          font-size: 24px;
+
+        }
+
+
+      }
+
+
+
+    }
+
+
+    .recording-accepting-section{
+
+
+      height: 800px;
+
+
+      .content{
+
+        padding: 20px 0 0 0;
+
+
+        >div{
+
+          float: none;
+          width: 100%;
+          height: 50%;
+
+        }
+
+        .recording-accepting-left-block{
+
+
+
+          ul{
+            margin: 30px 0 0 44px;
+
+            li{
+
+              font-size:20px;
+              line-height: 24px;
+
+              &:before{
+
+                content: "";
+                display: inline-block;
+                width: 14px;
+                height: 10px;
+                background: url(../images/check.png);
+                margin: 0 18px 0 0;
+
+              }
+
+            }
+
+          }
+
+        }
+
+        .recording-accepting-right-block{
+
+
+
+          padding:  0;
+          @include clear();
+
+          img{
+            width: 70%;
+            height: auto;
+            float:  none;
+          }
+
+        }
+
+
+
+
+
+      }
+
+    }
+
+
+    .recording-clerk-section{
+
+
+      height: 400px;
+      padding: 30px 0  0  0;
+
+
+      h3{
+
+        font-size:40px;
+
+      }
+
+      .ceckboxes-row{
+
+        margin: 30px 0 0 0;
+        @include clear();
+
+
+        .ckeckboxes{
+          width: 33.3%;
+          float: left;
+
+
+          .check-text{
+
+            color: #ffffff;
+            font-size:20px;
+            top:5px;
+            left: 8px;
+            cursor: pointer;
+
+
+          }
+
+
+
+        }
+
+
+
+      }
+
+      button{
+
+        margin: 50px 0 0 0;
+
+      }
+
+
+
+      .paying-links{
+        width: 621px;
+        margin: 30px auto;
+
+
+      }
+
+
+
+    }
+
+
+
+
+
+  }
+
+  .login-page{
+
+
+    .login-block{
+
+      width: 768px;
+      height: 706px;
+
+
+
+      .login-block-content{
+
+        width: 90%;
+
+
+
+        .social-links{
+          margin: 45px 0 0 0;
+          width: 100%;
+
+
+
+          >a{
+
+
+            width: 300px;
+            margin: 0 0 0 25px;
+            padding: 15px 0 0 27px;
+
+            &:last-child{
+
+              margin: 33px 0 0 190px ;
+
+
+            }
+
+          }
+
+        }
+
+
+
+
+      }
+
+
+    }
+
+  }
+
+  .register-page{
+
+    height: 100%;
+
+
+  .register-block{
+    height: 100%;
+  }
+
+  }
+
+
+  .about-page{
+
+
+    .about-first-section{
+
+      .content{
+
+
+
+        p{
+
+          width: 100%;
+          padding: 0 15px;
+        }
+      }
+    }
+
+    .about-team-section{
+
+
+      padding: 55px 0 114px 0;
+
+      .content{
+
+        .about-team-content{
+          @include clear();
+          padding: 82px 0 0 0;
+
+
+          >div{
+            width: 36%;
+            float: left;
+            margin: 0 0 20px 4%;
+
+            &:nth-child(odd){
+
+              margin: 0 0 20px 0;
+            }
+
+
+
+
+
+
+          }
+
+          .about-team-img{
+
+            width: 100%;
+            height: 202px;
+
+            >img{
+              width: 100%;
+              height: 202px;
+            }
+
+          }
+
+          .about-team-info{
+            border: 1px solid #ececec;
+            text-align: center;
+            padding: 0 11px;
+
+            p{
+
+              font-family: 'MontserratLight';
+
+            }
+
+            .team-name{
+
+              font-size:22px;
+              margin: 24px 0 10px 0;
+
+
+            }
+
+
+            .team-status{
+
+              font-size:12px;
+              color: #838383;
+              margin:  0 0 28px 0;
+
+            }
+
+            .team-phone,.team-mail{
+
+              margin: 0 0 17px 0;
+              font-size:13px;
+
+              >i{
+                font-size:15px;
+              }
+
+
+            }
+
+            .about-team-links{
+
+              padding: 13px 0;
+              border-top:1px solid #b90005;
+
+              a{
+
+                text-decoration: none;
+                font-size:16px;
+                color: #b0b0b0;
+                text-align: center;
+                display: inline-block;
+                width: 18%;
+              }
+
+
+            }
+
+          }
+
+
+        }
+
+
+      }
+
+
+    }
+
+    .about-testimonial-section{
+
+
+      .content{
+
+
+
+        .about-page-carousel{
+
+
+          .slider-list{
+
+
+            .slider-content{
+
+              width: 550px;
+
+
+
+
+
+            }
+
+          }
+
+          .owl-nav{
+
+            float: none;
+
+
+          }
+
+
+
+
+        }
+
+
+
+
+      }
+
+    }
+
+  }
+
+  .site-footer {
+    .site-footer-top-block {
+      .cont {
+        width: 768px;
+      }
+    }
+
+    .site-footer-bottom-block {
+      .cont {
+        width: 768px;
+      }
+    }
+  }
+}

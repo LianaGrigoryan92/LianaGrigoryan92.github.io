@@ -450,8 +450,12 @@ h2 {
 
   .info {
 
-    height: 800px;
+    height: 880px;
     padding: 15px 0;
+  }
+
+  .info .content .info-left > img {
+    width: 240px;
   }
 
   .info .content > div {

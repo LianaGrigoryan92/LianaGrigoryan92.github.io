@@ -916,6 +916,11 @@ header ul li a {
   .content {
     width: 480px;
   }
+
+  .main-content .portfolio-page .article-wrap .portfolio-menu ul{
+
+    width: 480px;
+  }
   header ul li {
     margin: 0 15px 0 0;
   }
@@ -978,6 +983,12 @@ header ul li a {
   .content {
     width: 320px;
   }
+
+  .main-content .portfolio-page .article-wrap .portfolio-menu ul{
+
+    width: 320px;
+  }
+
   header .logo-block {
     width: 35px;
     height: 35px;

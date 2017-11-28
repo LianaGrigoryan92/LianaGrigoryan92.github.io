@@ -183,9 +183,9 @@ h2 {
 
 .info .content > div {
   width: 49%;
-  height: 590px;
+  height: 490px;
   background: #ffffff;
-  float: left;
+  float: none;
 }
 
 .info .content > div h3 {
@@ -208,8 +208,8 @@ h2 {
 }
 
 .info .content .info-left {
-  text-align: center;
-  padding: 25px;
+
+  padding: 25px 0 0 50px;
 }
 
 .info .content .info-left:after {

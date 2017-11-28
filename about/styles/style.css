@@ -186,6 +186,7 @@ h2 {
   height: 490px;
   background: #ffffff;
   float: none;
+  margin: 0 auto;
 }
 
 .info .content > div h3 {
